@@ -15,8 +15,12 @@ def compute_rating(playerlist, placement):
 
 
 def print_leaderboard(leaderboard, fp=sys.stdout):
+    sep = '\t' if fp == sys.stdout else ','
+    header = ['Ranking', 'Name', 'Rating', 'Finishes', 'Forfeits']
+    print(*header, sep=sep, file=fp)
     for player, i in zip(leaderboard, range(len(leaderboard))):
-        print(f"{i+1}.\t {player.display_name}\t{player.display_rating}", file=fp)
+        line = [str(i+1), player.display_name, player.display_rating, player.finishes, player.forfeits]
+        print(*line, sep=sep, file=fp)
 
 
 def main():
@@ -43,6 +47,10 @@ def main():
 
             playerlist.append(global_playerlist[player['userid']])
             placement.append(player['place'])
+
+        # Count the race for each player
+        for player, place in zip(playerlist, placement):
+            player.count_race(place)
 
         # Put forfeits in last place
         ffplace = 1 + max([x for x in placement if x is not None])
