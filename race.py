@@ -6,7 +6,7 @@ class Race:
             data = json.load(fin)
 
         self.slug = data['slug']
-        self.datetime = data['entrants'][0]["finished_at"]
+        self.datetime = data["ended_at"]
         self.entrants = [{
                 "userid": entr['user']['id'],
                 "place": entr['place'],

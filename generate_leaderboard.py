@@ -11,22 +11,20 @@ def compute_rating(playerlist, placement):
     for i in range(len(ratings)):
         playerlist[i].rating = ratings[i][0]
         playerlist[i].compute_display_rating()
-    
 
 
 def main():
-    # Fetch missing race data
+    # Fetch missing racetime race data
+    asynclist = [asyn.strip() for asyn in open("asynclist.txt", 'r')]
     sluglist = [slug.strip() for slug in open("sluglist.txt", 'r')]
     for slug in sluglist:
         fetch_race(slug)
 
-    # Load asyncs
-    # asynclist = [asyn.strip() for asyn in open("asynclist.txt", 'r')]
-
-    # Load the races and order them, earliest first
-    racefnames = ["races/"+slug+".json" for slug in sluglist]
-    racefnames = racefnames
+    # Load the racetime races
+    racefnames = ["races/"+slug+".json" for slug in sluglist] + ["other_races/"+slug+".json" for slug in asynclist]
     racelist = [Race(fname) for fname in racefnames]
+
+    # Sort the races in order of date
     racelist.sort(key=lambda race: race.datetime)
 
     # Maintain a list of players, adding new players as they appear in races
