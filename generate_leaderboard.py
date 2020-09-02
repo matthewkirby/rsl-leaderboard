@@ -1,7 +1,8 @@
+import os, sys
+import trueskill
 from racetime_api_call import fetch_race
 from race import Race
 from player import Player
-import trueskill
 
 
 def compute_rating(playerlist, placement):
@@ -11,6 +12,11 @@ def compute_rating(playerlist, placement):
     for i in range(len(ratings)):
         playerlist[i].rating = ratings[i][0]
         playerlist[i].compute_display_rating()
+
+
+def print_leaderboard(leaderboard, fp=sys.stdout):
+    for player, i in zip(leaderboard, range(len(leaderboard))):
+        print(f"{i+1}.\t {player.display_name}\t{player.display_rating}", file=fp)
 
 
 def main():
@@ -45,11 +51,16 @@ def main():
         # Compute ratings for the race
         compute_rating(playerlist, placement)
 
-    # Finalize and output the rankings
+    # Finalize the rankings
     global_playerlist = [player for _, player in global_playerlist.items()]
     global_playerlist.sort(key=lambda player: player.display_rating, reverse=True)
-    for player, i in zip(global_playerlist, range(len(global_playerlist))):
-        print(f"{i+1}.\t {player.display_name}\t{player.display_rating}")
+
+
+    # Print and save rankings to a file
+    print_leaderboard(global_playerlist)
+    with open("leaderboard.txt", 'w') as lbout:
+        print_leaderboard(global_playerlist, lbout)
+
 
 if __name__ == "__main__":
     main()
