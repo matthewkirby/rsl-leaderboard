@@ -31,7 +31,7 @@ def generate_html(leaderboard):
         fp.write("</head>\n<body>\n")
 
         # Write the body
-        fp.write("<main>")
+        fp.write("<main>\n")
         fp.write("\t<ol>\n")
 
         # Write the header
@@ -43,13 +43,13 @@ def generate_html(leaderboard):
             fp.write(f"\t\t\t<span class=\"placement\">{pretty_placement(int(1+place))}</span>\n")
             fp.write(f"\t\t\t<span class=\"player-name\">{name_with_link(player)}</span>\n")
             fp.write(f"\t\t\t<span class=\"rating\">{player.display_rating}</span>\n")
-            fp.write(f"\t\t\t<span class=\"race-deetz\">")
+            fp.write(f"\t\t\t<span class=\"race-deetz\">\n")
             fp.write(f"\t\t\t\t<span class=\"finishes\">{should_i_plural('Finish', int(player.finishes))}</span>\n")
             fp.write(f"\t\t\t\t<span class=\"race-count\">{should_i_plural('Race', int(player.forfeits+player.finishes))}</span>\n")
-            fp.write(f"\t\t\t</span>")
+            fp.write(f"\t\t\t</span>\n")
             fp.write(f"\t\t</li>\n")
         fp.write("\t</ol>\n")
-        fp.write("</main>")
+        fp.write("</main>\n")
 
         # Close out tags
         fp.write("</body>\n</html>")
