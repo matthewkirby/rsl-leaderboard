@@ -25,7 +25,7 @@ class Race:
         self.htmltable += "\t\t<span class=\"table-header\">\n"
         self.htmltable += f"\t\t\t<h4>{tools.slug_with_link(self.slug)}</h4>\n"
         self.htmltable += f"\t\t\t<span class=\"race-date\">{tools.pretty_race_date(self.datetime)}</span>\n"
-        self.htmltable += "</span>\n"
+        self.htmltable += "\t\t</span>\n"
         for player in self.tabledata:
             self.htmltable += "\t\t<li class=\"li-table\">\n"
             self.htmltable += f"\t\t\t<span class=\"placement\">{tools.pretty_placement(player['place'])}</span>\n"
