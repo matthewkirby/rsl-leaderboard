@@ -27,6 +27,10 @@ header, .ul-header {
     border-right: 1px solid #d5d5d5;
 }
 
+.li-header:last-child {
+    border-right: none;
+}
+
 .a-header, .li-header {
     display: block;
     color: white;

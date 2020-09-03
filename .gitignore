@@ -1,8 +1,13 @@
-races/
 __pycache__/
-leaderboard.txt
-public/index.html
+
+# firebase stuff
 firebase-debug.log
 .firebaserc
 .firebase
+
+# Generated stuff
+races/
+leaderboard.txt
+public/index.html
 public/racelist.html
+public/resources.html

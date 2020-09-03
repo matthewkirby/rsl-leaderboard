@@ -64,8 +64,7 @@ def main():
     print_leaderboard(global_playerlist)
     with open("leaderboard.txt", 'w') as lbout:
         print_leaderboard(global_playerlist, lbout)
-    ghtml.generate_html_leaderboard(global_playerlist)
-    ghtml.generate_html_racelist(racelist)
+    ghtml.generate_website(global_playerlist, racelist)
 
 
 if __name__ == "__main__":

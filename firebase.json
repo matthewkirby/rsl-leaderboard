@@ -16,6 +16,10 @@
         "destination": "/racelist.html"
       },
       {
+        "source": "/resources",
+        "destination": "resources.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }

@@ -1,5 +1,11 @@
 import tools
 
+def generate_website(leaderboard, racelist):
+    generate_html_leaderboard(leaderboard)
+    generate_html_racelist(racelist)
+    generate_resources()
+
+
 def generate_html_leaderboard(leaderboard):
     with open("public/index.html", 'w') as fp:
         # Write the header
@@ -30,7 +36,7 @@ def generate_html_leaderboard(leaderboard):
 def generate_html_racelist(racelist):
     with open("public/racelist.html", 'w') as fp:
         # Write the header
-        with open("html_templates/preamble.html") as fin:
+        with open("html_templates/preamble.html", 'r') as fin:
             header = fin.read()
         fp.write(header)
 
@@ -40,6 +46,23 @@ def generate_html_racelist(racelist):
             fp.write("</p>")
 
         # Close out tags
-        with open("html_templates/closeout.html") as fin:
+        with open("html_templates/closeout.html", 'r') as fin:
+            footer = fin.read()
+        fp.write(footer)
+
+def generate_resources():
+    with open("public/resources.html", 'w') as fp:
+        # Write the header
+        with open("html_templates/preamble.html", 'r') as fin:
+            header = fin.read()
+        fp.write(header)
+
+        # Write the body
+        with open("html_templates/resource_body.html", 'r') as fin:
+            body = fin.read()
+        fp.write(body)
+
+        # Close out tags
+        with open("html_templates/closeout.html", 'r') as fin:
             footer = fin.read()
         fp.write(footer)
