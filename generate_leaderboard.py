@@ -1,6 +1,7 @@
 import os, sys
 import trueskill
 from racetime_api_call import fetch_race
+from generate_html import generate_html
 from race import Race
 from player import Player
 
@@ -68,6 +69,7 @@ def main():
     print_leaderboard(global_playerlist)
     with open("leaderboard.txt", 'w') as lbout:
         print_leaderboard(global_playerlist, lbout)
+    generate_html(global_playerlist)
 
 
 if __name__ == "__main__":

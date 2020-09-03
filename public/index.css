@@ -1,0 +1,109 @@
+body, a {
+    color: #d5d5d5;
+}
+
+body {
+    font: 16px Roboto, sans-serif;
+    margin: 20px;
+    background-color: #313131;
+    line-height: 1.5;
+}
+
+main {
+    background: #212121;
+    width: 615px;
+    margin: 0 auto;
+    border: 5px solid #151515;
+    border-radius: 8px;
+}
+
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    border-top: 1px solid #000000;
+    display: flex;
+    line-height: 32px;
+    padding: 5px;
+}
+
+h4 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
+.table-header {
+    display: flex;
+    padding: 8px 8px 8px 20px;
+    background-color: #151515;
+}
+
+.placement {
+    flex: 0 0 50px;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: center;
+}
+
+.first-place {
+    color: #d6af36;
+}
+
+.second-place {
+    color: #a7a7ad
+}
+
+.third-place {
+    color: #824a02;
+}
+
+.first-place, .second-place, .third-place {
+    font-weight: 900;
+}
+
+.player-name {
+    display: flex;
+    flex: 0 0 400px;
+}
+
+.rating {
+    display: flex;
+    flex: 0 0 80px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.race-deetz {
+    align-items: flex-end;
+    display: flex;
+    flex: 0 0 70px;
+    flex-direction: column;
+    font-size: 14px;
+    justify-content: center;
+    line-height: 1;
+}
+
+.finishes {
+    align-items: center;
+    display: flex;
+    line-height: 16px;
+    color: #90ee90
+}
+
+.race-count {
+    align-items: center;
+    display: flex;
+    line-height: 16px;
+    color: #bdc3c7;
+    font-size: 12px;
+}
