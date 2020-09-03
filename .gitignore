@@ -1,3 +1,6 @@
 races/
 __pycache__/
 leaderboard.txt
+public/index.html
+firebase-debug.log
+.firebaserc
