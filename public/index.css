@@ -30,6 +30,12 @@ li {
     padding: 5px;
 }
 
+li:hover {
+    border-left: 5px solid #22a7f0;
+    background-color: #303030;
+    margin: 0 0 0 -5px;
+}
+
 h4 {
     margin: 0;
 }
@@ -56,15 +62,17 @@ a:hover, a:focus {
 }
 
 .first-place {
-    color: #d6af36;
+    /* color: #d6af36; */
+    color: gold;
 }
 
 .second-place {
-    color: #a7a7ad
+    /* color: #a7a7ad */
+    color: silver;
 }
 
 .third-place {
-    color: #824a02;
+    color: #cd7f32;
 }
 
 .first-place, .second-place, .third-place {
