@@ -83,8 +83,16 @@ h4 {
 
 .table-header {
     display: flex;
-    padding: 8px 8px 8px 20px;
+    padding: 8px;
     background-color: #151515;
+    justify-content: space-between;
+}
+
+.race-date {
+    display: flex;
+    color: #8c898c;
+    margin: 0;
+    font-size: 14px;
 }
 
 .placement {
@@ -95,12 +103,10 @@ h4 {
 }
 
 .first-place {
-    /* color: #d6af36; */
     color: gold;
 }
 
 .second-place {
-    /* color: #a7a7ad */
     color: silver;
 }
 
@@ -117,13 +123,13 @@ h4 {
     flex: 0 0 400px;
 }
 
-.rating, .rating-delta {
+.rating, .rating-delta, .finish-time {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-.rating {
+.rating, .finish-time {
     flex: 0 0 80px;
 }
 

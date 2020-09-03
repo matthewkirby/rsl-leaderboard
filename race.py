@@ -12,7 +12,9 @@ class Race:
         self.entrants = [{
                 "userid": entr['user']['id'],
                 "place": entr['place'],
-                "display_name": entr['user']['name']
+                "display_name": entr['user']['name'],
+                "status": entr['status']['value'],
+                "finish_time": entr['finish_time']
             } for entr in data['entrants']]
         self.tabledata = []
         self.htmltable = ""
@@ -20,12 +22,15 @@ class Race:
 
     def build_html(self):
         self.htmltable += "\t<ol class=\"ol-table\">\n"
-        self.htmltable += f"\t\t<span class=\"table-header\"><h4>{tools.slug_with_link(self.slug)}</h4></span>\n"
+        self.htmltable += "\t\t<span class=\"table-header\">\n"
+        self.htmltable += f"\t\t\t<h4>{tools.slug_with_link(self.slug)}</h4>\n"
+        self.htmltable += f"\t\t\t<span class=\"race-date\">{tools.pretty_race_date(self.datetime)}</span>\n"
+        self.htmltable += "</span>\n"
         for player in self.tabledata:
             self.htmltable += "\t\t<li class=\"li-table\">\n"
-            self.htmltable += f"\t\t\t<span class=\"placement\">{tools.pretty_placement(int(player['place']))}</span>\n"
+            self.htmltable += f"\t\t\t<span class=\"placement\">{tools.pretty_placement(player['place'])}</span>\n"
             self.htmltable += f"\t\t\t<span class=\"player-name\">{player['name']}</span>\n"
-            self.htmltable += f"\t\t\t<span class=\"rating\">{player['rating']}</span>\n"
+            self.htmltable += f"\t\t\t<span class=\"finish-time\">{tools.pretty_finish_time(player['finish_time'])}</span>\n"
             self.htmltable += f"\t\t\t<span class=\"rating-delta\">{tools.format_delta(player['delta'])}</span>\n"
             self.htmltable += "\t\t</li>\n"
         self.htmltable += "\t</ol>\n"
@@ -34,12 +39,20 @@ class Race:
     def build_table(self, playerlist, placement, start_ratings, end_ratings):
         """ Build dict to display race in webpage. """
         for i in range(len(playerlist)):
+            pname = playerlist[i].display_name
+            entr = [x for x in self.entrants if x['display_name'] == pname][0]
+
+            # If ff, overwrite placement
+            if entr['status'] == 'dnf':
+                placement[i] = None
+
             srate = start_ratings[i][0]
             erate = end_ratings[i][0]
             self.tabledata.append(
                 {
                     "place": placement[i],
-                    "name": playerlist[i].display_name,
+                    "name": pname,
+                    "finish_time": entr["finish_time"],
                     "rating": round((srate.mu - 2.*srate.sigma) * 100.),
                     "delta": round((erate.mu - 2.*erate.sigma) * 100.) - round((srate.mu - 2.*srate.sigma) * 100.)
                 }

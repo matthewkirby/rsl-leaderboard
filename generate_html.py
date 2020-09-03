@@ -2,29 +2,14 @@ import tools
 
 def generate_html_leaderboard(leaderboard):
     with open("public/index.html", 'w') as fp:
-        # Write the preamble
-        fp.write("<html>\n<head>\n<title>Rando Rando Leaderboard</title>\n")
-        fp.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"index.css\">\n")
-        fp.write("</head>\n<body>\n")
-
         # Write the header
-        fp.write("<header>\n")
-        fp.write("\t<ul class=\"ul-header\">")
-        fp.write("<li class=\"li-header\"><a href=\"\\\" class=\"a-header\">Leaderboard</a></li>")
-        fp.write("<li class=\"li-header\"><a href=\"racelist\" class=\"a-header\">Race List</a></li>")
-        fp.write("\t</ul>")
-        fp.write("</header>\n")
-
-
-        # Write the body
-        fp.write("<main>\n")
-        fp.write("<div class\"contain-table\">")
-        fp.write("\t<ol class=\"ol-table\">\n")
-
-        # Write the header
-        fp.write("\t\t<span class=\"table-header\"><h4>Rando Rando Season 2</h4></span>\n")
+        with open("html_templates/preamble.html") as fin:
+            header = fin.read()
+        fp.write(header)
 
         # Write the leaderboard
+        fp.write("\t<ol class=\"ol-table\">\n")
+        fp.write("\t\t<span class=\"table-header\"><h4>Rando Rando Season 2</h4></span>\n")
         for player, place in zip(leaderboard, range(len(leaderboard))):
             fp.write(f"\t\t<li class=\"li-table\">\n")
             fp.write(f"\t\t\t<span class=\"placement\">{tools.pretty_placement(int(1+place))}</span>\n")
@@ -35,35 +20,26 @@ def generate_html_leaderboard(leaderboard):
             fp.write(f"\t\t\t\t<span class=\"race-count\">{tools.should_i_plural('Race', int(player.forfeits+player.finishes))}</span>\n")
             fp.write(f"\t\t\t</span>\n")
             fp.write(f"\t\t</li>\n")
-        fp.write("\t</ol>\n</div>")
-        fp.write("</main>\n")
+        fp.write("\t</ol>\n")
 
         # Close out tags
-        fp.write("</body>\n</html>")
-
+        with open("html_templates/closeout.html") as fin:
+            footer = fin.read()
+        fp.write(footer)
 
 def generate_html_racelist(racelist):
     with open("public/racelist.html", 'w') as fp:
-        # Write the preamble
-        fp.write("<html>\n<head>\n<title>Rando Rando Season 2 Races</title>\n")
-        fp.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"index.css\">\n")
-        fp.write("</head>\n<body>\n")
-
         # Write the header
-        fp.write("<header>\n")
-        fp.write("\t<ul class=\"ul-header\">")
-        fp.write("<li class=\"li-header\"><a href=\"\\\" class=\"a-header\">Leaderboard</a></li>")
-        fp.write("<li class=\"li-header\"><a href=\"racelist\" class=\"a-header\">Race List</a></li>")
-        fp.write("\t</ul>")
-        fp.write("</header>\n")
-
+        with open("html_templates/preamble.html") as fin:
+            header = fin.read()
+        fp.write(header)
 
         # Write the body
-        fp.write("<main>\n")
         for race in racelist[::-1]:
             fp.write(race.htmltable)
             fp.write("</p>")
-        fp.write("</main>\n")
 
         # Close out tags
-        fp.write("</body>\n</html>") 
+        with open("html_templates/closeout.html") as fin:
+            footer = fin.read()
+        fp.write(footer)

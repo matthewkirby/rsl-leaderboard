@@ -1,5 +1,9 @@
+from datetime import datetime as dt
+
 def pretty_placement(i):
-    if i == 1:
+    if i is None:
+        return '-'
+    elif i == 1:
         return "<div class=\"first-place\">1st</div>"
     elif i == 2:
         return "<div class=\"second-place\">2nd</div>"
@@ -27,3 +31,17 @@ def format_delta(num):
 def slug_with_link(slug):
     url = f"https://racetime.gg/ootr/{slug}"
     return f"<a href={url} class=\"a-table\">{slug}</a>"
+
+def pretty_finish_time(raw_time):
+    if raw_time is None:
+        return 'Forfeit'
+    
+    h = raw_time[4:6]
+    m = raw_time[7:9]
+    s = raw_time[10:14]
+
+    return f"{int(h)}:{str(int(m)).zfill(2)}:{str(int(float(s))).zfill(2)}"
+
+def pretty_race_date(raw_date):
+    date = dt.fromisoformat(raw_date[:-1])
+    return date.strftime("%B %d, %Y")
