@@ -17,7 +17,7 @@
       },
       {
         "source": "/resources",
-        "destination": "resources.html"
+        "destination": "/resources.html"
       },
       {
         "source": "**",
