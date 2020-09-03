@@ -2,7 +2,7 @@ from datetime import datetime as dt
 
 def pretty_placement(i):
     if i is None:
-        return '-'
+        return '&ndash;'
     elif i == 1:
         return "<div class=\"first-place\">1st</div>"
     elif i == 2:
