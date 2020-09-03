@@ -1,21 +1,13 @@
 import os, sys
 import trueskill
 from racetime_api_call import fetch_race
-from generate_html import generate_html_leaderboard
+import generate_html as ghtml
 from race import Race
 from player import Player
 
 # Todo: Clicking on a players rating (or entire cell) will bring you to a page with a table that contains each race slug and the delta rating
 # Todo: Make a page of tables of races. Shows players in order of placement, before ratings, and rating delta
 # Todo: Header to link between race table and leaderboard
-
-def compute_rating(playerlist, placement):
-    """ Given a list of players and race placement, compute ratings using trueskill """
-    ratings = [(player.rating,) for player in playerlist]
-    ratings = trueskill.rate(ratings, ranks=placement)
-    for i in range(len(ratings)):
-        playerlist[i].rating = ratings[i][0]
-        playerlist[i].compute_display_rating()
 
 
 def print_leaderboard(leaderboard, fp=sys.stdout):
@@ -61,7 +53,7 @@ def main():
         placement = [x if x is not None else ffplace for x in placement]
 
         # Compute ratings for the race
-        compute_rating(playerlist, placement)
+        race.rate(playerlist, placement)
 
     # Finalize the rankings
     global_playerlist = [player for _, player in global_playerlist.items()]
@@ -72,7 +64,8 @@ def main():
     print_leaderboard(global_playerlist)
     with open("leaderboard.txt", 'w') as lbout:
         print_leaderboard(global_playerlist, lbout)
-    generate_html_leaderboard(global_playerlist)
+    ghtml.generate_html_leaderboard(global_playerlist)
+    ghtml.generate_html_racelist(racelist)
 
 
 if __name__ == "__main__":

@@ -8,15 +8,6 @@ body {
     background-image: url("assets/bg_image.png");
 }
 
-main {
-    background: #212121;
-    width: 615px;
-    margin: 20px auto 0 auto;
-    border: 5px solid #151515;
-    border-radius: 8px;
-    line-height: 1.5;
-}
-
 
 /* Header css */
 header, .ul-header {
@@ -50,10 +41,19 @@ header, .ul-header {
 
 
 /* Main Body css */
+main {
+    width: 630px;
+    margin: 20px auto 0 auto;
+    line-height: 1.5;
+}
+
 .ol-table {
     list-style: none;
     margin: 0;
     padding: 0;
+    background: #212121;
+    border: 5px solid #151515;
+    border-radius: 8px;
 }
 
 .li-table {
@@ -117,11 +117,27 @@ h4 {
     flex: 0 0 400px;
 }
 
-.rating {
+.rating, .rating-delta {
     display: flex;
-    flex: 0 0 80px;
     flex-direction: column;
     text-align: center;
+}
+
+.rating {
+    flex: 0 0 80px;
+}
+
+.rating-delta {
+    font-size: 12px;
+    flex: 0 0 50px;
+}
+
+.positive-delta {
+    color: green;
+}
+
+.negative-delta {
+    color: red;
 }
 
 .race-deetz {

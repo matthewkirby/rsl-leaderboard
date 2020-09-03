@@ -12,6 +12,10 @@
         "destination": "/index.html"
       },
       {
+        "source": "/racelist",
+        "destination": "/racelist.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
