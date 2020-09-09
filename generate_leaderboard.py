@@ -27,8 +27,8 @@ def main():
         fetch_race(slug)
 
     # Load the racetime races
-    racefnames = ["races/"+slug+".json" for slug in sluglist] + ["other_races/"+slug+".json" for slug in asynclist]
-    racelist = [Race(fname) for fname in racefnames]
+    # racefnames = ["races/"+slug+".json" for slug in sluglist] + ["other_races/"+slug+".json" for slug in asynclist]
+    racelist = [Race("races/"+slug+".json") for slug in sluglist] + [Race("other_races/"+slug+".txt", asyn=True) for slug in asynclist]
 
     # Sort the races in order of date
     racelist.sort(key=lambda race: race.datetime)

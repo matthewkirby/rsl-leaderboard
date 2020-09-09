@@ -33,13 +33,34 @@ def slug_with_link(slug):
     return f"<a href={url} class=\"a-table\">{slug}</a>"
 
 def pretty_finish_time(raw_time):
+    """ This function is super jank, but it works *shrug* """
     if raw_time is None:
         return 'Forfeit'
     
-    h = raw_time[4:6]
-    m = raw_time[7:9]
-    s = raw_time[10:14]
-
+    h, m, s = "", "", ""
+    counth, countm, counts = False, False, False
+    for c in raw_time:
+        if c == 'T':
+            counth = True
+            continue
+        elif c == 'H':
+            counth = False
+            countm = True
+            continue
+        elif c == 'M':
+            countm = False
+            counts = True
+            continue
+        elif c == 'S':
+            break
+    
+        if counth:
+            h += c
+        elif countm:
+            m += c
+        elif counts:
+            s += c
+        
     return f"{int(h)}:{str(int(m)).zfill(2)}:{str(int(float(s))).zfill(2)}"
 
 def pretty_race_date(raw_date):

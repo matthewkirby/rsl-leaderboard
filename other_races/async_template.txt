@@ -1,0 +1,8 @@
+Rated Async <##>
+<YYYY>-<MM>-<DD>T00:00:00Z
+<url to racetime user profile>,<race placement>,<racetime username>,<race status. Either done or dnf>,P0DT<HH>H<MM>M<SS>S
+
+Repeat the bottom line for each entrant to the race. They do not need to be in order.
+As an example, see below
+https://racetime.gg/user/PyZ2Dv30Q4oewXma,1,Xopar1,done,P0DT04H24M28S
+https://racetime.gg/user/PyZ2Dv30Q4oewXma,2,Xopar2,dnf,null

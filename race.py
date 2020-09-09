@@ -3,7 +3,20 @@ import tools
 import json
 
 class Race:
-    def __init__(self, filepath):
+    def __init__(self, filepath, asyn=False):
+
+
+        if asyn:
+            self.init_asyn(filepath)
+        else:
+            self.init_racetime(filepath)
+
+        self.tabledata = []
+        self.htmltable = ""
+
+
+    def init_racetime(self, filepath):
+        """ Initalize a race using data scraped from racetime api """
         with open(filepath, 'r') as fin:
             data = json.load(fin)
 
@@ -16,14 +29,37 @@ class Race:
                 "status": entr['status']['value'],
                 "finish_time": entr['finish_time']
             } for entr in data['entrants']]
-        self.tabledata = []
-        self.htmltable = ""
+        self.on_racetime = True
 
+
+    def init_asyn(self, filepath):
+        print(filepath)
+        with open(filepath, 'r') as fin:
+            data = fin.readlines()
+        data = [line.strip() for line in data]
+
+        self.slug = data[0]
+        self.datetime = data[1]
+        self.entrants = [{
+                "userid": row.split(',')[0].split('/')[-1],
+                "place": int(row.split(',')[1]),
+                "display_name": row.split(',')[2],
+                "status": row.split(',')[3],
+                "finish_time": row.split(',')[4]
+            } for row in data[2:]]
+        
+        for entr in self.entrants:
+            if entr['finish_time'] == 'null':
+                entr['finish_time'] = None
+        self.on_racetime = False
 
     def build_html(self):
         self.htmltable += "\t<ol class=\"ol-table\">\n"
         self.htmltable += "\t\t<span class=\"table-header\">\n"
-        self.htmltable += f"\t\t\t<h4>{tools.slug_with_link(self.slug)}</h4>\n"
+        if self.on_racetime:
+            self.htmltable += f"\t\t\t<h4>{tools.slug_with_link(self.slug)}</h4>\n"
+        else:
+            self.htmltable += f"\t\t\t<h4>{self.slug}</h4>\n"
         self.htmltable += f"\t\t\t<span class=\"race-date\">{tools.pretty_race_date(self.datetime)}</span>\n"
         self.htmltable += "\t\t</span>\n"
         for player in self.tabledata:
