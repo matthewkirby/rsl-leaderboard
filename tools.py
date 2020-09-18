@@ -28,9 +28,11 @@ def format_delta(num):
     div = "<div class=\"positive-delta\">" if num >= 0 else "<div class=\"negative-delta\">"
     return div+'+'+str(num)+"</div>" if num >= 0 else div+str(num)+"</div>"
 
-def slug_with_link(slug):
-    url = f"https://racetime.gg/ootr/{slug}"
-    return f"<a href={url} class=\"a-table\">{slug}</a>"
+def slug_with_link(slug, on_racetime):
+    if on_racetime:
+        url = f"https://racetime.gg/ootr/{slug}"
+        return f"<a href={url} class=\"a-table\">{slug}</a>"
+    return slug
 
 def pretty_finish_time(raw_time):
     """ This function is super jank, but it works *shrug* """

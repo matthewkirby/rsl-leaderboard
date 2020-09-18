@@ -21,6 +21,7 @@ class Race:
             data = json.load(fin)
 
         self.slug = data['slug']
+        self.race_materials_name = None
         self.datetime = data["ended_at"]
         self.entrants = [{
                 "userid": entr['user']['id'],
@@ -39,14 +40,15 @@ class Race:
         data = [line.strip() for line in data]
 
         self.slug = data[0]
-        self.datetime = data[1]
+        self.race_materials_name = data[1]
+        self.datetime = data[2]
         self.entrants = [{
                 "userid": row.split(',')[0].split('/')[-1],
-                "place": int(row.split(',')[1]),
+                "place": int(row.split(',')[1]) if row.split(',')[1] != 'null' else None,
                 "display_name": row.split(',')[2],
                 "status": row.split(',')[3],
                 "finish_time": row.split(',')[4]
-            } for row in data[2:]]
+            } for row in data[3:]]
         
         for entr in self.entrants:
             if entr['finish_time'] == 'null':
@@ -56,10 +58,12 @@ class Race:
     def build_html(self):
         self.htmltable += "\t<ol class=\"ol-table\">\n"
         self.htmltable += "\t\t<span class=\"table-header\">\n"
-        if self.on_racetime:
-            self.htmltable += f"\t\t\t<h4>{tools.slug_with_link(self.slug)}</h4>\n"
-        else:
-            self.htmltable += f"\t\t\t<h4>{self.slug}</h4>\n"
+        self.htmltable += f"\t\t\t<h4>{tools.slug_with_link(self.slug, self.on_racetime)}</h4>\n"
+        if self.race_materials_name is not None:
+            self.htmltable += "\t\t\t<span class=\"race-materials\">"
+            self.htmltable += f"(<a href=\"/race_materials/{self.race_materials_name}_patch.zpf\" class=\"a-materials\" download>Download Patch</a>) "
+            self.htmltable += f"(<a href=\"/race_materials/{self.race_materials_name}_spoiler.json\" class=\"a-materials\" download>Download Spoiler</a>)"
+            self.htmltable += "</span>\n"
         self.htmltable += f"\t\t\t<span class=\"race-date\">{tools.pretty_race_date(self.datetime)}</span>\n"
         self.htmltable += "\t\t</span>\n"
         for player in self.tabledata:
