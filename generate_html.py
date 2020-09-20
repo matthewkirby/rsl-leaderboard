@@ -1,17 +1,27 @@
 import tools
 
-def generate_website(leaderboard, racelist):
-    generate_html_leaderboard(leaderboard)
+def generate_website(leaderboard, unqualed, racelist):
+    generate_html_leaderboard(leaderboard, unqualed)
     generate_html_racelist(racelist)
     generate_resources()
 
 
-def generate_html_leaderboard(leaderboard):
+def generate_html_leaderboard(leaderboard, unqualed):
     with open("public/index.html", 'w') as fp:
         # Write the header
         with open("html_templates/preamble.html") as fin:
             header = fin.read()
         fp.write(header)
+
+        # Write the hash block
+        fp.write("<div class=\"hashbox\">")
+        fp.write("<h3>Current Hash</h3><div>")
+        fp.write("<img src=\"\\assets\\hash\\mask_of_truth.png\" class=\"hash-image\">")
+        fp.write("<img src=\"\\assets\\hash\\mask_of_truth.png\" class=\"hash-image\">")
+        fp.write("<img src=\"\\assets\\hash\\none.png\" class=\"hash-image\">")
+        fp.write("<img src=\"\\assets\\hash\\none.png\" class=\"hash-image\">")
+        fp.write("<img src=\"\\assets\\hash\\none.png\" class=\"hash-image\">")
+        fp.write("</div></div></p>")
 
         # Write the leaderboard
         fp.write("\t<ol class=\"ol-table\">\n")
@@ -26,7 +36,16 @@ def generate_html_leaderboard(leaderboard):
             fp.write(f"\t\t\t\t<span class=\"race-count\">{tools.should_i_plural('Race', int(player.forfeits+player.finishes))}</span>\n")
             fp.write(f"\t\t\t</span>\n")
             fp.write(f"\t\t</li>\n")
-        fp.write("\t</ol>\n")
+        fp.write("\t</ol></p>")
+
+        # Write the table of unqualified players
+        fp.write("<ol class=\"ol-table\">")
+        fp.write("<span class=\"table-header unranked-table\"><h4>Unranked Players</h4><h4>3 Total Finishes Needed</h4></span>")
+        for player in unqualed:
+            fp.write(f"<li class=\"li-table unranked-table\">")
+            fp.write(f"<span class=\"unranked-name\">{tools.name_with_link(player)}</span>")
+            fp.write(f"<span class=\"unranked-remaining\">{tools.should_i_plural('Finish', 3-player.finishes)} to Qualify</span>")
+        fp.write("</ol>")
 
         # Close out tags
         with open("html_templates/closeout.html") as fin:

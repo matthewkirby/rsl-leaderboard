@@ -1,7 +1,7 @@
 import os, sys
 import trueskill
 from racetime_api_call import fetch_race
-import generate_html as ghtml
+from generate_html import generate_website
 from race import Race
 from player import Player
 
@@ -59,12 +59,23 @@ def main():
     global_playerlist = [player for _, player in global_playerlist.items()]
     global_playerlist.sort(key=lambda player: player.display_rating, reverse=True)
 
+    # Split off anyone not qualified
+    unqualed, leaderboard = [], []
+    for player in global_playerlist:
+        if player.finishes == 0:
+            continue
+        elif player.finishes < 3:
+            unqualed.append(player)
+        else:
+            leaderboard.append(player)
+    unqualed.sort(key=lambda player: player.display_name.upper())
+
 
     # Print and save rankings to a file
     print_leaderboard(global_playerlist)
     with open("leaderboard.txt", 'w') as lbout:
         print_leaderboard(global_playerlist, lbout)
-    ghtml.generate_website(global_playerlist, racelist)
+    generate_website(leaderboard, unqualed, racelist)
 
 
 if __name__ == "__main__":
