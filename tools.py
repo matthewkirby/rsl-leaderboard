@@ -21,7 +21,7 @@ def should_i_plural(string, i):
 
 def name_with_link(player):
     url = f"https://racetime.gg/user/{player.id}"
-    return f"<a href={url} class=\"a-table\">{player.display_name}</a>"
+    return f"<a href={url} class=\"table\">{player.display_name}</a>"
 
 
 def format_delta(num):
@@ -31,7 +31,7 @@ def format_delta(num):
 def slug_with_link(slug, on_racetime):
     if on_racetime:
         url = f"https://racetime.gg/ootr/{slug}"
-        return f"<a href={url} class=\"a-table\">{slug}</a>"
+        return f"<a href={url} class=\"table\">{slug}</a>"
     return slug
 
 def pretty_finish_time(raw_time):

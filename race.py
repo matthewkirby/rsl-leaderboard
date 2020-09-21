@@ -56,24 +56,24 @@ class Race:
         self.on_racetime = False
 
     def build_html(self):
-        self.htmltable += "\t<ol class=\"ol-table\">\n"
-        self.htmltable += "\t\t<span class=\"table-header\">\n"
-        self.htmltable += f"\t\t\t<h4>{tools.slug_with_link(self.slug, self.on_racetime)}</h4>\n"
+        self.htmltable += "<ol class=\"player-table\">"
+        self.htmltable += "<span class=\"table-header\">"
+        self.htmltable += f"<h4>{tools.slug_with_link(self.slug, self.on_racetime)}</h4>"
         if self.race_materials_name is not None:
-            self.htmltable += "\t\t\t<span class=\"race-materials\">"
+            self.htmltable += "<span class=\"race-materials\">"
             self.htmltable += f"(<a href=\"/race_materials/{self.race_materials_name}_patch.zpf\" class=\"a-materials\" download>Download Patch</a>) "
             self.htmltable += f"(<a href=\"/race_materials/{self.race_materials_name}_spoiler.json\" class=\"a-materials\" download>Download Spoiler</a>)"
-            self.htmltable += "</span>\n"
-        self.htmltable += f"\t\t\t<span class=\"race-date\">{tools.pretty_race_date(self.datetime)}</span>\n"
-        self.htmltable += "\t\t</span>\n"
+            self.htmltable += "</span>"
+        self.htmltable += f"<span class=\"race-date\">{tools.pretty_race_date(self.datetime)}</span>"
+        self.htmltable += "</span>"
         for player in self.tabledata:
-            self.htmltable += "\t\t<li class=\"li-table\">\n"
-            self.htmltable += f"\t\t\t<span class=\"placement\">{tools.pretty_placement(player['place'])}</span>\n"
-            self.htmltable += f"\t\t\t<span class=\"player-name\">{player['name']}</span>\n"
-            self.htmltable += f"\t\t\t<span class=\"finish-time\">{tools.pretty_finish_time(player['finish_time'])}</span>\n"
-            self.htmltable += f"\t\t\t<span class=\"rating-delta\">{tools.format_delta(player['delta'])}</span>\n"
-            self.htmltable += "\t\t</li>\n"
-        self.htmltable += "\t</ol>\n"
+            self.htmltable += "<li class=\"table\">"
+            self.htmltable += f"<span class=\"placement\">{tools.pretty_placement(player['place'])}</span>"
+            self.htmltable += f"<span class=\"player-name\">{player['name']}</span>"
+            self.htmltable += f"<span class=\"finish-time\">{tools.pretty_finish_time(player['finish_time'])}</span>"
+            self.htmltable += f"<span class=\"rating-delta\">{tools.format_delta(player['delta'])}</span>"
+            self.htmltable += "</li>"
+        self.htmltable += "</ol>"
 
 
     def build_table(self, playerlist, placement, start_ratings, end_ratings):

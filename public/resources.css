@@ -2,13 +2,13 @@
     width: 100%;
 }
 
-.a-table {
+a.table {
     display: block;
     width: auto;
     height: 32px;
     padding: 5px 20px;
 }
 
-.li-table {
+li.table {
     padding: 0;
 }
