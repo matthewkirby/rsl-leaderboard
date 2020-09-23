@@ -19,3 +19,5 @@ dapper-garuda-6290
 curious-ivysaur-2618
 magnificent-kazooie-6668
 casual-snorlax-9553
+intrepid-checkpoint-9923
+hyper-glitch-7471

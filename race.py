@@ -61,8 +61,8 @@ class Race:
         self.htmltable += f"<h4>{tools.slug_with_link(self.slug, self.on_racetime)}</h4>"
         if self.race_materials_name is not None:
             self.htmltable += "<span class=\"race-materials\">"
-            self.htmltable += f"(<a href=\"/race_materials/{self.race_materials_name}_patch.zpf\" class=\"a-materials\" download>Download Patch</a>) "
-            self.htmltable += f"(<a href=\"/race_materials/{self.race_materials_name}_spoiler.json\" class=\"a-materials\" download>Download Spoiler</a>)"
+            self.htmltable += f"(<a href=\"/race_materials/{self.race_materials_name}_patch.zpf\" class=\"materials\" download>Download Patch</a>) "
+            self.htmltable += f"(<a href=\"/race_materials/{self.race_materials_name}_spoiler.json\" class=\"materials\" download>Download Spoiler</a>)"
             self.htmltable += "</span>"
         self.htmltable += f"<span class=\"race-date\">{tools.pretty_race_date(self.datetime)}</span>"
         self.htmltable += "</span>"
@@ -80,6 +80,9 @@ class Race:
         """ Build dict to display race in webpage. """
         for i in range(len(playerlist)):
             pname = playerlist[i].display_name
+
+            print('\n\n\n', self.entrants, pname, '\n')
+
             entr = [x for x in self.entrants if x['display_name'] == pname][0]
 
             # If ff, overwrite placement
