@@ -79,11 +79,8 @@ class Race:
     def build_table(self, playerlist, placement, start_ratings, end_ratings):
         """ Build dict to display race in webpage. """
         for i in range(len(playerlist)):
-            pname = playerlist[i].display_name
-
-            print('\n\n\n', self.entrants, pname, '\n')
-
-            entr = [x for x in self.entrants if x['display_name'] == pname][0]
+            pid = playerlist[i].id
+            entr = [x for x in self.entrants if x['userid'] == pid][0]
 
             # If ff, overwrite placement
             if entr['status'] == 'dnf':
@@ -94,7 +91,7 @@ class Race:
             self.tabledata.append(
                 {
                     "place": placement[i],
-                    "name": pname,
+                    "name": playerlist[i].display_name,
                     "finish_time": entr["finish_time"],
                     "rating": round((srate.mu - 2.*srate.sigma) * 100.),
                     "delta": round((erate.mu - 2.*erate.sigma) * 100.) - round((srate.mu - 2.*srate.sigma) * 100.)
@@ -104,7 +101,13 @@ class Race:
 
 
     def rate(self, playerlist, placement):
-        """ Given a list of players and race placement, compute ratings using trueskill """
+        """ Given a list of players and race placement, compute ratings using trueskill 
+        
+        Parameters
+        ----------
+        playerlist: list(Player)
+        placement: list(int)
+        """
         start_ratings = [(player.rating,) for player in playerlist]
         end_ratings = trueskill.rate(start_ratings, ranks=placement)
         for i in range(len(end_ratings)):
