@@ -4,6 +4,7 @@ def generate_website(leaderboard, unqualed, racelist):
     generate_html_leaderboard(leaderboard, unqualed)
     generate_html_racelist(racelist)
     generate_resources()
+    generated_rated_asyncs()
 
 
 def generate_html_leaderboard(leaderboard, unqualed):
@@ -68,6 +69,20 @@ def generate_html_racelist(racelist):
         with open("html_templates/closeout.html", 'r') as fin:
             footer = fin.read()
         fp.write(footer)
+
+
+def generated_rated_asyncs():
+    with open("public/rasyncs.html", 'w') as fp:
+        # Write the header
+        with open("html_templates/preamble.html", 'r') as fin:
+            header = fin.read()
+        fp.write(header) 
+
+        # Close out tags
+        with open("html_templates/closeout.html", 'r') as fin:
+            footer = fin.read()
+        fp.write(footer)
+
 
 def generate_resources():
     with open("public/resources.html", 'w') as fp:
