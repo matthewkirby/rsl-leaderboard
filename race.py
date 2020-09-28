@@ -93,7 +93,7 @@ class Race:
                     "place": placement[i],
                     "name": playerlist[i].display_name,
                     "finish_time": entr["finish_time"],
-                    "rating": round((srate.mu - 2.*srate.sigma) * 100.),
+                    "rating": round((erate.mu - 2.*erate.sigma) * 100.),
                     "delta": round((erate.mu - 2.*erate.sigma) * 100.) - round((srate.mu - 2.*srate.sigma) * 100.)
                 }
             )
