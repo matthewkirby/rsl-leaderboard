@@ -2,7 +2,7 @@ body {
     color: #d5d5d5;
     font: 16px Roboto, sans-serif;
     background-color: #313131;
-    background-image: url("assets/bg_image.png");
+    background-image: url("/assets/bg_image.png");
 }
 
 
