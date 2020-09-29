@@ -4,8 +4,6 @@ import json
 
 class Race:
     def __init__(self, filepath, asyn=False):
-
-
         if asyn:
             self.init_asyn(filepath)
         else:
@@ -64,8 +62,12 @@ class Race:
             self.htmltable += f"(<a href=\"/race_materials/{self.race_materials_name}_patch.zpf\" class=\"materials\" download>Download Patch</a>) "
             self.htmltable += f"(<a href=\"/race_materials/{self.race_materials_name}_spoiler.json\" class=\"materials\" download>Download Spoiler</a>)"
             self.htmltable += "</span>"
-        self.htmltable += f"<span class=\"race-date\">{tools.pretty_race_date(self.datetime)}</span>"
-        self.htmltable += "</span>"
+        if self.on_racetime:
+            self.htmltable += f"<span class=\"race-date\">{tools.pretty_race_date(self.datetime)}</span>"
+            self.htmltable += f"</span><span class=\"placement-block\" style=\"display: block;\">"
+        else:
+            self.htmltable += "<span class=\"reveal-button\" onclick=\"revealTimes(this)\">Toggle Times</span>"
+            self.htmltable += f"</span><span class=\"placement-block\" style=\"display: none;\">"
         for player in self.tabledata:
             self.htmltable += "<li class=\"table\">"
             self.htmltable += f"<span class=\"placement\">{tools.pretty_placement(player['place'])}</span>"
@@ -73,7 +75,7 @@ class Race:
             self.htmltable += f"<span class=\"finish-time\">{tools.pretty_finish_time(player['finish_time'])}</span>"
             self.htmltable += f"<span class=\"rating-delta\">{tools.format_delta(player['delta'])}</span>"
             self.htmltable += "</li>"
-        self.htmltable += "</ol>"
+        self.htmltable += "</span></ol>"
 
 
     def build_table(self, playerlist, placement, start_ratings, end_ratings):
