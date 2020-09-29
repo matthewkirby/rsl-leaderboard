@@ -1,0 +1,18 @@
+.reveal-button {
+    display: flex;
+    color: #8c898c;
+    margin: -3px 0 0 0;
+    padding: 0 6px;
+    border: solid;
+
+    /* Make the button text non-selectable */
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.reveal-button:hover {
+    color: yellow;
+    cursor: pointer;
+}

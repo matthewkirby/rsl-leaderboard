@@ -16,6 +16,10 @@
         "destination": "/racelist.html"
       },
       {
+        "source": "/rasyncs",
+        "destination": "/rasyncs.html"
+      },
+      {
         "source": "/resources",
         "destination": "/resources.html"
       },

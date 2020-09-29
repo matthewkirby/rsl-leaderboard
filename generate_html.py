@@ -1,8 +1,10 @@
 import tools
+import re
 
 def generate_website(leaderboard, unqualed, racelist):
     generate_html_leaderboard(leaderboard, unqualed)
     generate_html_racelist(racelist)
+    generated_rated_asyncs(racelist)
     generate_resources()
 
 
@@ -58,6 +60,8 @@ def generate_html_racelist(racelist):
         with open("html_templates/preamble.html", 'r') as fin:
             header = fin.read()
         fp.write(header)
+        fp.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"/css/rasyncs.css\">")
+        fp.write("<script src=\"/scripts/toggle_element.js\"></script>")
 
         # Write the body
         for race in racelist[::-1]:
@@ -68,6 +72,30 @@ def generate_html_racelist(racelist):
         with open("html_templates/closeout.html", 'r') as fin:
             footer = fin.read()
         fp.write(footer)
+
+
+def generated_rated_asyncs(racelist):
+    with open("public/rasyncs.html", 'w') as fp:
+        # Write the header
+        with open("html_templates/preamble.html", 'r') as fin:
+            header = fin.read()
+        fp.write(header) 
+        fp.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"/css/rasyncs.css\">")
+        fp.write("<script src=\"/scripts/toggle_element.js\"></script>")
+
+        # Write the body
+        for race in racelist[::-1]:
+            if race.slug[:11] != 'Rated Async':
+                continue
+            fp.write(race.htmltable)
+            fp.write("</p>")
+
+
+        # Close out tags
+        with open("html_templates/closeout.html", 'r') as fin:
+            footer = fin.read()
+        fp.write(footer)
+
 
 def generate_resources():
     with open("public/resources.html", 'w') as fp:
