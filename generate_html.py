@@ -31,7 +31,7 @@ def generate_html_leaderboard(leaderboard, unqualed):
         for player, place in zip(leaderboard, range(len(leaderboard))):
             fp.write(f"<li class=\"table\">")
             fp.write(f"<span class=\"placement\">{tools.pretty_placement(int(1+place))}</span>")
-            fp.write(f"<span class=\"player-name\">{tools.name_with_link(player)}</span>")
+            fp.write(f"<span class=\"player-name-leaderboard\">{tools.name_with_link(player)}</span>")
             fp.write(f"<span class=\"rating\">{player.display_rating}</span>")
             fp.write(f"<span class=\"race-deetz\">")
             fp.write(f"<span class=\"finishes\">{tools.should_i_plural('Finish', int(player.finishes))}</span>")

@@ -71,7 +71,7 @@ class Race:
         for player in self.tabledata:
             self.htmltable += "<li class=\"table\">"
             self.htmltable += f"<span class=\"placement\">{tools.pretty_placement(player['place'])}</span>"
-            self.htmltable += f"<span class=\"player-name\">{player['name']}</span>"
+            self.htmltable += f"<span class=\"player-name-race\">{player['name']}</span>"
             self.htmltable += f"<span class=\"finish-time\">{tools.pretty_finish_time(player['finish_time'])}</span>"
             self.htmltable += f"<span class=\"rating-delta\">{tools.format_delta(player['delta'])}</span>"
             self.htmltable += "</li>"
