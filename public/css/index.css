@@ -179,7 +179,7 @@ a.table:hover, a.table:focus, a.materials:hover, a.materials:focus {
 
 .player-name {
     display: flex;
-    flex: 0 0 400px;
+    flex: 0 0 380px;
 }
 
 .rating, .rating-delta, .finish-time {
@@ -208,7 +208,7 @@ a.table:hover, a.table:focus, a.materials:hover, a.materials:focus {
 .race-deetz {
     align-items: flex-end;
     display: flex;
-    flex: 0 0 70px;
+    flex: 0 0 90px;
     flex-direction: column;
     font-size: 14px;
     justify-content: center;
