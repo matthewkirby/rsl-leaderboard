@@ -1,3 +1,6 @@
 rated_async_1
 rated_async_2
 rated_async_3
+rated_async_4
+rated_async_5
+rated_async_6

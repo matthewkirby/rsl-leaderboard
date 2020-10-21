@@ -18,8 +18,8 @@ def generate_html_leaderboard(leaderboard, unqualed):
         # Write the hash block
         fp.write("<div class=\"hashbox\">")
         fp.write("<h3>Current Hash</h3><div>")
-        fp.write("<img src=\"\\assets\\hash\\mask_of_truth.png\" class=\"hash-image\">")
-        fp.write("<img src=\"\\assets\\hash\\mask_of_truth.png\" class=\"hash-image\">")
+        fp.write("<img src=\"\\assets\\hash\\beans.png\" class=\"hash-image\">")
+        fp.write("<img src=\"\\assets\\hash\\beans.png\" class=\"hash-image\">")
         fp.write("<img src=\"\\assets\\hash\\none.png\" class=\"hash-image\">")
         fp.write("<img src=\"\\assets\\hash\\none.png\" class=\"hash-image\">")
         fp.write("<img src=\"\\assets\\hash\\none.png\" class=\"hash-image\">")
