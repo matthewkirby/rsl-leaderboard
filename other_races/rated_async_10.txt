@@ -1,12 +1,12 @@
 Rated Async 10
 rated_async_10
 2020-11-18T04:00:00Z
-https://racetime.gg/user/AEk8wpokQVB5KQyV,2,Timmy2405,done,P0DT5H17M38S
-https://racetime.gg/user/q5rNGD3Dl39blOy0,3,KayzoBro,done,P0DT5H18M19S
-https://racetime.gg/user/pRbOXG3yvOoZVKq1,4,Kirox,done,P0DT5H21M13S
-https://racetime.gg/user/LNqO2YoLxo9QEyaJ,5,XthDoctor,done,P0DT6H6M10S
-https://racetime.gg/user/R8QGZrB2k03Ngk4V,6,Challensois_,done,P0DT7H19M53S
-https://racetime.gg/user/AEk8wpok9GB5KQyV,1,Hellknight86,done,P0DT7H28M17S
+https://racetime.gg/user/AEk8wpokQVB5KQyV,1,Timmy2405,done,P0DT5H17M38S
+https://racetime.gg/user/q5rNGD3Dl39blOy0,2,KayzoBro,done,P0DT5H18M19S
+https://racetime.gg/user/pRbOXG3yvOoZVKq1,3,Kirox,done,P0DT5H21M13S
+https://racetime.gg/user/LNqO2YoLxo9QEyaJ,4,XthDoctor,done,P0DT6H6M10S
+https://racetime.gg/user/R8QGZrB2k03Ngk4V,5,Challensois_,done,P0DT7H19M53S
+https://racetime.gg/user/AEk8wpok9GB5KQyV,6,Hellknight86,done,P0DT7H28M17S
 https://racetime.gg/user/mz56VnBQz3K4xrZA,null,Aksannyi,dnf,null
 https://racetime.gg/user/JN9rVpW98Gojq8Ll,null,SDGShawn,dnf,null
 https://racetime.gg/user/AEk8wpok5KB5KQyV,null,Rahylia,dnf,null

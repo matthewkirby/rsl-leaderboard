@@ -1,0 +1,13 @@
+Rated Async 12
+rated_async_12
+2020-12-01T04:00:00Z
+https://racetime.gg/user/AEk8wpokQVB5KQyV,1,Timmy2405,done,P0DT4H56M14S
+https://racetime.gg/user/pRbOXG3yvOoZVKq1,2,Kirox,done,P0DT6H19M24S
+https://racetime.gg/user/AEk8wpok9GB5KQyV,3,Hellknight86,done,P0DT6H44M51S
+https://racetime.gg/user/JN9rVpW90ojq8Llv,4,drooness,done,P0DT6H48M19S
+https://racetime.gg/user/AEk8wpok5KB5KQyV,5,Rahylia,done,P0DT7H2M15S
+https://racetime.gg/user/7nxMQeox6QBapX0A,6,SariasObject,done,P0DT7H22M0S
+https://racetime.gg/user/b52QE8oNnwolywqX,null,FQef,dnf,null
+https://racetime.gg/user/kzM65aWXldW1y8q0,null,mracsys,dnf,null
+https://racetime.gg/user/q5rNGD3Dl39blOy0,null,KayzoBro,dnf,null
+https://racetime.gg/user/LNqO2YoLxo9QEyaJ,null,XthDoctor,dnf,null

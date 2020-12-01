@@ -9,6 +9,12 @@ def pretty_placement(i):
         return "<div class=\"second-place\">2nd</div>"
     elif i == 3:
         return "<div class=\"third-place\">3rd</div>"
+    elif i%10 == 1:
+        return f"{i}st"
+    elif i%10 == 2:
+        return f"{i}nd"
+    elif i%10 == 3:
+        return f"{i}rd"
     else:
         return f"{i}th"
 
