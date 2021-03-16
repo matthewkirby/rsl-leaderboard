@@ -5,6 +5,7 @@ def generate_website(leaderboard, unqualed, racelist):
     generate_html_leaderboard(leaderboard, unqualed)
     generate_html_racelist(racelist)
     generated_rated_asyncs(racelist)
+    generate_weights()
     generate_resources()
 
 
@@ -18,8 +19,8 @@ def generate_html_leaderboard(leaderboard, unqualed):
         # Write the hash block
         fp.write("<div class=\"hashbox\">")
         fp.write("<h3>Current Hash</h3><div>")
-        fp.write("<img src=\"\\assets\\hash\\bottled_milk.png\" class=\"hash-image\">")
-        fp.write("<img src=\"\\assets\\hash\\bottled_milk.png\" class=\"hash-image\">")
+        fp.write("<img src=\"\\assets\\hash\\map.png\" class=\"hash-image\">")
+        fp.write("<img src=\"\\assets\\hash\\map.png\" class=\"hash-image\">")
         fp.write("<img src=\"\\assets\\hash\\none.png\" class=\"hash-image\">")
         fp.write("<img src=\"\\assets\\hash\\none.png\" class=\"hash-image\">")
         fp.write("<img src=\"\\assets\\hash\\none.png\" class=\"hash-image\">")
@@ -27,7 +28,7 @@ def generate_html_leaderboard(leaderboard, unqualed):
 
         # Write the leaderboard
         fp.write("<ol class=\"player-table\">")
-        fp.write("<span class=\"table-header\"><h4>Rando Rando Season 2</h4></span>")
+        fp.write("<span class=\"table-header\"><h4>RSL Season 3</h4></span>")
         for player, place in zip(leaderboard, range(len(leaderboard))):
             fp.write(f"<li class=\"table\">")
             fp.write(f"<span class=\"placement\">{tools.pretty_placement(int(1+place))}</span>")
@@ -108,6 +109,21 @@ def generate_resources():
         with open("html_templates/resource_body.html", 'r') as fin:
             body = fin.read()
         fp.write(body)
+
+        # Close out tags
+        with open("html_templates/closeout.html", 'r') as fin:
+            footer = fin.read()
+        fp.write(footer)
+
+
+def generate_weights():
+    with open("public/weights.html", 'w') as fp:
+        # Write the header
+        with open("html_templates/preamble.html", 'r') as fin:
+            header = fin.read()
+        fp.write(header)
+
+        # Write the body
 
         # Close out tags
         with open("html_templates/closeout.html", 'r') as fin:

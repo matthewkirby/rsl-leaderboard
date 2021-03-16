@@ -1,6 +1,7 @@
 import os, sys
+import glob
 import trueskill
-from racetime_api_call import fetch_race
+from racetime_api_call import fetch_race, download_sluglist
 from generate_html import generate_website
 from race import Race
 from player import Player
@@ -22,13 +23,13 @@ def print_leaderboard(leaderboard, fp=sys.stdout):
 def main():
     # Fetch missing racetime race data
     asynclist = [asyn.strip() for asyn in open("asynclist.txt", 'r')]
-    sluglist = [slug.strip() for slug in open("sluglist.txt", 'r')]
-    for slug in sluglist:
+    races_to_fetch = [slug.strip() for slug in open("sluglist.txt", 'r')] + download_sluglist()
+    for slug in races_to_fetch:
         fetch_race(slug)
 
-    # Load the racetime races
-    # racefnames = ["races/"+slug+".json" for slug in sluglist] + ["other_races/"+slug+".json" for slug in asynclist]
-    racelist = [Race("races/"+slug+".json") for slug in sluglist] + [Race("other_races/"+slug+".txt", asyn=True) for slug in asynclist]
+    # Load the race data
+    racelist = [Race(race_fname) for race_fname in glob.glob("races/**.json")]
+    racelist += [Race("other_races/"+slug+".txt", asyn=True) for slug in asynclist]
 
     # Sort the races in order of date
     racelist.sort(key=lambda race: race.datetime)
@@ -62,12 +63,14 @@ def main():
     # Split off anyone not qualified
     unqualed, leaderboard = [], []
     for player in global_playerlist:
-        if player.finishes == 0:
-            continue
-        elif player.finishes < 3:
-            unqualed.append(player)
-        else:
-            leaderboard.append(player)
+        # if player.finishes == 0:
+        #     continue
+        # elif player.finishes < 3:
+        #     unqualed.append(player)
+        # else:
+        #     leaderboard.append(player)
+        leaderboard.append(player)
+        
     unqualed.sort(key=lambda player: player.display_name.upper())
 
 

@@ -22,7 +22,12 @@
       {
         "source": "/resources",
         "destination": "/resources.html"
-      },{
+      },
+      {
+        "source": "/weights",
+        "destination": "/weights.html"
+      },
+      {
         "source": "/season2",
         "destination": "/season2.html"
       },
