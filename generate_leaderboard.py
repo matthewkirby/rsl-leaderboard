@@ -1,5 +1,6 @@
 import os, sys
 import glob
+import random
 import trueskill
 from racetime_api_call import fetch_race, download_sluglist
 from generate_html import generate_website
@@ -21,6 +22,7 @@ def print_leaderboard(leaderboard, fp=sys.stdout):
 
 
 def main():
+    random.seed(69420)
     # Fetch missing racetime race data
     asynclist = [asyn.strip() for asyn in open("asynclist.txt", 'r')]
     races_to_fetch = [slug.strip() for slug in open("sluglist.txt", 'r')] + download_sluglist()
@@ -37,15 +39,20 @@ def main():
     # Maintain a list of players, adding new players as they appear in races
     global_playerlist = {}
     for race in racelist:
-        playerlist, placement = [], []
+        playerlist, forfeit_playerlist, placement = [], [], []
         for player in race.entrants:
             if player['userid'] not in global_playerlist:
                 global_playerlist[player['userid']] = Player(player['userid'], player['display_name'])
 
-            playerlist.append(global_playerlist[player['userid']])
+            if player['place'] is None:
+                forfeit_playerlist.append(global_playerlist[player['userid']])
+            else:
+                playerlist.append(global_playerlist[player['userid']])
             placement.append(player['place'])
 
         # Count the race for each player
+        random.shuffle(forfeit_playerlist)
+        playerlist += forfeit_playerlist
         for player, place in zip(playerlist, placement):
             player.count_race(place)
 
