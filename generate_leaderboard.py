@@ -70,13 +70,12 @@ def main():
     # Split off anyone not qualified
     unqualed, leaderboard = [], []
     for player in global_playerlist:
-        # if player.finishes == 0:
-        #     continue
-        # elif player.finishes < 3:
-        #     unqualed.append(player)
-        # else:
-        #     leaderboard.append(player)
-        leaderboard.append(player)
+        if player.finishes == 0:
+            continue
+        elif player.finishes < 3:
+            unqualed.append(player)
+        else:
+            leaderboard.append(player)
         
     unqualed.sort(key=lambda player: player.display_name.upper())
 
