@@ -1,0 +1,51 @@
+.setting-table {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #212121;
+    border: 5px solid #151515;
+    border-radius: 8px;
+}
+
+div.one-setting {
+    margin: 0 0 1px 0;
+}
+
+div.one-setting:hover {
+    border: 1px solid #d5d5d5;
+    margin: -1px -1px 0 -1px;
+}
+
+span.setting-header {
+    display: flex;
+    padding: 8px;
+    background-color: #151515;
+    justify-content: space-between;
+    height: 24px;
+}
+
+span.setting-header:hover {
+    background-color: #191919;
+    cursor: pointer;
+}
+
+span.option-block {
+    display: block;
+}
+
+li.option-row {
+    border-top: 1px solid #000000;
+    line-height: 32px;
+    display: flex;
+    padding: 5px;
+}
+
+div.percentage {
+    flex: 0 0 50px;
+    /* padding: 0 25; */
+    text-align: center;
+}
+
+div.option-name {
+    padding-left: 15px;
+}

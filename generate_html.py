@@ -1,11 +1,12 @@
 import tools
+import weights
 import re
 
 def generate_website(leaderboard, unqualed, racelist):
     generate_html_leaderboard(leaderboard, unqualed)
     generate_html_racelist(racelist)
     generated_rated_asyncs(racelist)
-    generate_weights()
+    generate_html_weights()
     generate_resources()
 
 
@@ -116,14 +117,22 @@ def generate_resources():
         fp.write(footer)
 
 
-def generate_weights():
+def generate_html_weights():
+    settinglist = weights.download_weights()
+
     with open("public/weights.html", 'w') as fp:
         # Write the header
         with open("html_templates/preamble.html", 'r') as fin:
             header = fin.read()
         fp.write(header)
-
+        fp.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"/css/weights.css\">")
+        fp.write("<script src=\"/scripts/toggle_element.js\"></script>")
+        
         # Write the body
+        fp.write('<ol class="setting-table">')
+        for setting in settinglist:
+            fp.write(setting.htmlblock)
+        fp.write('</ol>')
 
         # Close out tags
         with open("html_templates/closeout.html", 'r') as fin:

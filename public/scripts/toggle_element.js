@@ -15,4 +15,17 @@ function revealTimes(button) {
     } else {
         finishers.style.display = "none";
     }
-  }
+}
+
+function toggle_block_visibility(element, className) {
+    let parent = element.parentElement;
+    let block = null;
+    for(let i=0; i<parent.childNodes.length; i++) {
+        child = parent.childNodes[i];
+        if(child.nodeType === 1 && child.classList.contains(className)) {
+            block = child;
+            break;
+        }
+    }
+    block.style.display = block.style.display === "none" ? "block" : "none";
+}
