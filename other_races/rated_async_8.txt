@@ -1,13 +1,17 @@
 Rated Async 8
 rated_async_8
-2020-11-04T04:00:00Z
-https://racetime.gg/user/dMqzQPW4jv31L2R5,1,Marco,done,P0DT4H41M23S
-https://racetime.gg/user/AEk8wpokQVB5KQyV,2,Timmy2405,done,P0DT5H6M2S
-https://racetime.gg/user/q5rNGD3Dl39blOy0,3,KayzoBro,done,P0DT6H4M31S
-https://racetime.gg/user/pRbOXG3yvOoZVKq1,4,Kirox,done,P0DT6H6M24S
-https://racetime.gg/user/LNqO2YoLxo9QEyaJ,5,XthDoctor,done,P0DT6H13M10S
-https://racetime.gg/user/AEk8wpok9GB5KQyV,6,Hellknight86,done,P0DT6H19M4S
-https://racetime.gg/user/d17DexWEQRWak64R,7,Nopons,done,P0DT6H22M28S
-https://racetime.gg/user/l5K9rm36aYBq1aOX,8,Johnny Gameshow,done,P0DT7H40M31S
-https://racetime.gg/user/R8QGZrB2k03Ngk4V,null,Challensois_,dnf,null
+2021-05-12T04:00:00Z
+https://racetime.gg/user/07QXz83Ke6WeZDjr,1,emosoda,done,P0DT4H33M42S
+https://racetime.gg/user/AEk8wpokQVB5KQyV,2,Timmy2405,done,P0DT5H3M11S
+https://racetime.gg/user/yDMLq1oZz0oOeQG8,3,Oximan,done,P0DT5H19M11S
+https://racetime.gg/user/0wezlNoA2Wmq6dbj,4,Melrose,done,P0DT5H26M34S
+https://racetime.gg/user/pRbOXG3yvOoZVKq1,5,Kirox,done,P0DT6H1M4S
+https://racetime.gg/user/ZbpNAaBv40oJkg04,null,Weasel2366,dnf,null
+https://racetime.gg/user/AEk8wpok9GB5KQyV,null,Hellknight86,dnf,null
 https://racetime.gg/user/AEk8wpok5KB5KQyV,null,Rahylia,dnf,null
+https://racetime.gg/user/JrM6PoY9dkoRdm5v,null,Xuross,dnf,null
+https://racetime.gg/user/NX5783JdQXWqlL0a,null,Flouflouche,dnf,null
+https://racetime.gg/user/LNY0OkW1wv3KalP1,null,rockchalk,dnf,null
+https://racetime.gg/user/DMLq1oZRgJoOeQG8,null,Cybrou,dnf,null
+https://racetime.gg/user/1jgrbWP5mNBe7P5Q,null,ecess88,dnf,null
+https://racetime.gg/user/AEk8wpokPVW5KQyV,null,Chimpanreeve,dnf,null

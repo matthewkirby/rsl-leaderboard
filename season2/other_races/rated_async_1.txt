@@ -1,0 +1,12 @@
+Rated Async 1
+rated_async_1
+2020-09-16T04:00:00Z
+https://racetime.gg/user/dMqzQPW4jv31L2R5,1,Marco,done,P0DT2H34M19S
+https://racetime.gg/user/pRbOXG3yvOoZVKq1,2,Kirox,done,P0DT2H49M31S
+https://racetime.gg/user/R8QGZrB2QvWNgk4V,3,Nephistoss,done,P0DT2H59M22S
+https://racetime.gg/user/q5rNGD3Dl39blOy0,4,KayzoBro,done,P0DT3H4M41S
+https://racetime.gg/user/457ZKD3gYWkyANO2,5,Cola,done,P0DT3H27M44S
+https://racetime.gg/user/kzM65aWXldW1y8q0,6,mracsys,done,P0DT4H33M5S
+https://racetime.gg/user/LNqO2YoLxo9QEyaJ,7,XthDoctor,done,P0DT5H27M23S
+https://racetime.gg/user/yDMLq1oZZEoOeQG8,null,Mijati,dnf,null
+https://racetime.gg/user/AEk8wpokQVB5KQyV,null,Timmy2405,dnf,null

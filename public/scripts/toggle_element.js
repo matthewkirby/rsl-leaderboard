@@ -1,3 +1,4 @@
+// Used for rated asyncs
 function revealTimes(button) {
     // Find the block element encompassing the finish times
     var race = button.parentElement.parentElement;
@@ -10,13 +11,11 @@ function revealTimes(button) {
     }
 
     // Toggle visibility
-    if(finishers.style.display === "none") {
-        finishers.style.display = "block";
-    } else {
-        finishers.style.display = "none";
-    }
+    finishers.classList.toggle("hidden");
+    finishers.classList.toggle("block");
 }
 
+// Used for weights list
 function toggle_block_visibility(element, className) {
     let parent = element.parentElement;
     let block = null;
