@@ -66,8 +66,8 @@ class Race:
             self.htmltable += f"<span class=\"race-date\">{tools.pretty_race_date(self.datetime)}</span>"
             self.htmltable += f"</span><span class=\"placement-block\" style=\"display: block;\">"
         else:
-            self.htmltable += "<span class=\"reveal-button\" onclick=\"revealTimes(this)\">Toggle Times</span>"
-            self.htmltable += f"</span><span class=\"placement-block\" style=\"display: none;\">"
+            self.htmltable += "<button class=\"reveal-button\" onclick=\"revealTimes(this)\">Toggle Times</button>"
+            self.htmltable += f"</span><span class=\"placement-block hidden\">"
         for player in self.tabledata:
             self.htmltable += "<li class=\"table\">"
             self.htmltable += f"<span class=\"placement\">{tools.pretty_placement(player['place'])}</span>"

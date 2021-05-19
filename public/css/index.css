@@ -132,9 +132,9 @@ a.table:hover, a.table:focus, a.materials:hover, a.materials:focus {
     color:#1ba39c;
 }
 
-.placement-block {
+/* .placement-block {
     display: none;
-}
+ } */
 
 .hash-image {
     height: 50px;
