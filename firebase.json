@@ -28,6 +28,10 @@
         "destination": "/weights.html"
       },
       {
+        "source": "/rules",
+        "destination": "/rules.html"
+      },
+      {
         "source": "/season2",
         "destination": "/season2.html"
       },
