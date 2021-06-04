@@ -8,6 +8,7 @@ def generate_website(leaderboard, unqualed, racelist):
     generated_rated_asyncs(racelist)
     generate_html_weights()
     generate_resources()
+    generate_rules()
 
 
 def generate_html_leaderboard(leaderboard, unqualed):
@@ -108,6 +109,24 @@ def generate_resources():
 
         # Write the body
         with open("html_templates/resource_body.html", 'r') as fin:
+            body = fin.read()
+        fp.write(body)
+
+        # Close out tags
+        with open("html_templates/closeout.html", 'r') as fin:
+            footer = fin.read()
+        fp.write(footer)
+
+
+def generate_rules():
+    with open("public/rules.html", 'w') as fp:
+        # Write the header
+        with open("html_templates/preamble.html", 'r') as fin:
+            header = fin.read()
+        fp.write(header)
+
+        # Write the body
+        with open("html_templates/rules_body.html", 'r') as fin:
             body = fin.read()
         fp.write(body)
 

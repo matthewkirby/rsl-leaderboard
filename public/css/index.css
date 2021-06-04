@@ -27,7 +27,9 @@ header li {
     padding: 0;
 }
 
-header li:last-child {
+header li.right {
+    float: right;
+    border-left: 1px solid #d5d5d5;
     border-right: none;
 }
 
@@ -100,12 +102,16 @@ h3 {
     margin-inline-end: 0px;
 }
 
-a.table, a.materials {
+.rules {
+    padding: 5px 20px 5px 40px;
+}
+
+a.table, a.materials, .rules a {
     color: inherit;
     text-decoration: none;
 }
 
-a.table:hover, a.table:focus, a.materials:hover, a.materials:focus {
+a.table:hover, a.table:focus, a.materials:hover, a.materials:focus, .rules a {
     text-decoration: underline;
 }
 

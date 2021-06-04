@@ -11,6 +11,7 @@ races/
 leaderboard.txt
 public/index.html
 public/racelist.html
-public/resources.html
 public/rasyncs.html
+public/resources.html
+public/rules.html
 public/weights.html
