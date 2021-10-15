@@ -33,7 +33,11 @@
       },
       {
         "source": "/season2",
-        "destination": "/season2.html"
+        "destination": "/past_seasons/season2.html"
+      },
+      {
+        "source": "/season3",
+        "destination": "/past_seasons/season3.html"
       },
       {
         "source": "**",

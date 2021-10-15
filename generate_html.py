@@ -30,7 +30,7 @@ def generate_html_leaderboard(leaderboard, unqualed):
 
         # Write the leaderboard
         fp.write("<ol class=\"player-table\">")
-        fp.write("<span class=\"table-header\"><h4>RSL Season 3</h4></span>")
+        fp.write("<span class=\"table-header\"><h4>RSL Season 4</h4></span>")
         for player, place in zip(leaderboard, range(len(leaderboard))):
             fp.write(f"<li class=\"table\">")
             fp.write(f"<span class=\"placement\">{tools.pretty_placement(int(1+place))}</span>")

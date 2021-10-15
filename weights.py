@@ -16,7 +16,11 @@ class Setting:
         netweight = sum(weights.values())
         self.options = [Option(name, format_percentage(100*weight/netweight)) for name, weight in weights.items()]
         self.name = name
-        self.alias = aliasdict[name]
+        try:
+            self.alias = aliasdict[name]
+        except:
+            print(f"Fancy name not found for {name}")
+            self.alias = name
 
         self.htmlblock = ''
         self.build_html()
@@ -132,4 +136,8 @@ aliasdict = {
     "start_with_consumables": "Start with Deku Nuts and Sticks",
     "start_with_rupees": "Start with a Full Wallet",
     "starting_hearts": "Starting Hearts",
+    "shuffle_hideoutkeys": "Shuffle Gerudo Fortress Keys",
+    "ganon_bosskey_medallions": "Medallions Required for Ganon Boss Key",
+    "ganon_bosskey_stones": "Stones Required for Ganon Boss Key",
+    "ganon_bosskey_rewards": "Dungeon Rewards Required for Ganon Boss Key",
 }
