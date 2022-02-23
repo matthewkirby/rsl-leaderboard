@@ -15,14 +15,13 @@ def generate_html_leaderboard(leaderboard, unqualed):
     with open("public/index.html", 'w') as fp:
         # Write the header
         with open("html_templates/preamble.html") as fin:
-            header = fin.read()
-        fp.write(header)
+            fp.write(fin.read())
 
         # Write the hash block
         fp.write("<div class=\"hashbox\">")
         fp.write("<h3>Current Hash</h3><div>")
-        fp.write("<img src=\"\\assets\\hash\\cucco.png\" class=\"hash-image\">")
-        fp.write("<img src=\"\\assets\\hash\\cucco.png\" class=\"hash-image\">")
+        fp.write("<img src=\"\\assets\\hash\\map.png\" class=\"hash-image\">")
+        fp.write("<img src=\"\\assets\\hash\\map.png\" class=\"hash-image\">")
         fp.write("<img src=\"\\assets\\hash\\none.png\" class=\"hash-image\">")
         fp.write("<img src=\"\\assets\\hash\\none.png\" class=\"hash-image\">")
         fp.write("<img src=\"\\assets\\hash\\none.png\" class=\"hash-image\">")
@@ -54,15 +53,13 @@ def generate_html_leaderboard(leaderboard, unqualed):
 
         # Close out tags
         with open("html_templates/closeout.html") as fin:
-            footer = fin.read()
-        fp.write(footer)
+            fp.write(fin.read())
 
 def generate_html_racelist(racelist):
     with open("public/racelist.html", 'w') as fp:
         # Write the header
         with open("html_templates/preamble.html", 'r') as fin:
-            header = fin.read()
-        fp.write(header)
+            fp.write(fin.read())
         fp.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"/css/rasyncs.css\">")
         fp.write("<script src=\"/scripts/toggle_element.js\"></script>")
 
@@ -73,16 +70,14 @@ def generate_html_racelist(racelist):
 
         # Close out tags
         with open("html_templates/closeout.html", 'r') as fin:
-            footer = fin.read()
-        fp.write(footer)
+            fp.write(fin.read())
 
 
 def generated_rated_asyncs(racelist):
     with open("public/rasyncs.html", 'w') as fp:
         # Write the header
         with open("html_templates/preamble.html", 'r') as fin:
-            header = fin.read()
-        fp.write(header) 
+            fp.write(fin.read())
         fp.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"/css/rasyncs.css\">")
         fp.write("<script src=\"/scripts/toggle_element.js\"></script>")
 
@@ -96,44 +91,37 @@ def generated_rated_asyncs(racelist):
 
         # Close out tags
         with open("html_templates/closeout.html", 'r') as fin:
-            footer = fin.read()
-        fp.write(footer)
+            fp.write(fin.read())
 
 
 def generate_resources():
     with open("public/resources.html", 'w') as fp:
         # Write the header
         with open("html_templates/preamble.html", 'r') as fin:
-            header = fin.read()
-        fp.write(header)
+            fp.write(fin.read())
 
         # Write the body
         with open("html_templates/resource_body.html", 'r') as fin:
-            body = fin.read()
-        fp.write(body)
+            fp.write(fin.read())
 
         # Close out tags
         with open("html_templates/closeout.html", 'r') as fin:
-            footer = fin.read()
-        fp.write(footer)
+            fp.write(fin.read())
 
 
 def generate_rules():
     with open("public/rules.html", 'w') as fp:
         # Write the header
         with open("html_templates/preamble.html", 'r') as fin:
-            header = fin.read()
-        fp.write(header)
+            fp.write(fin.read())
 
         # Write the body
         with open("html_templates/rules_body.html", 'r') as fin:
-            body = fin.read()
-        fp.write(body)
+            fp.write(fin.read())
 
         # Close out tags
         with open("html_templates/closeout.html", 'r') as fin:
-            footer = fin.read()
-        fp.write(footer)
+            fp.write(fin.read())
 
 
 def generate_html_weights():
@@ -142,8 +130,7 @@ def generate_html_weights():
     with open("public/weights.html", 'w') as fp:
         # Write the header
         with open("html_templates/preamble.html", 'r') as fin:
-            header = fin.read()
-        fp.write(header)
+            fp.write(fin.read())
         fp.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"/css/weights.css\">")
         fp.write("<script src=\"/scripts/toggle_element.js\"></script>")
         
@@ -155,5 +142,4 @@ def generate_html_weights():
 
         # Close out tags
         with open("html_templates/closeout.html", 'r') as fin:
-            footer = fin.read()
-        fp.write(footer)
+            fp.write(fin.read())

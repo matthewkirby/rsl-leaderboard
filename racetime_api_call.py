@@ -3,7 +3,7 @@ import json
 import os
 import dateutil.parser
 
-SEASON_START_DATE = dateutil.parser.parse("2021-09-15T00:0:0.000Z")
+SEASON_START_DATE = dateutil.parser.parse("2021-10-29T00:0:0.000Z")
 
 def download_sluglist():
     sluglist = []

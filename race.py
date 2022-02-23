@@ -32,7 +32,6 @@ class Race:
 
 
     def init_asyn(self, filepath):
-        print(filepath)
         with open(filepath, 'r') as fin:
             data = fin.readlines()
         data = [line.strip() for line in data]
@@ -59,8 +58,19 @@ class Race:
         self.htmltable += f"<h4>{tools.slug_with_link(self.slug, self.on_racetime)}</h4>"
         if self.race_materials_name is not None:
             self.htmltable += "<span class=\"race-materials\">"
-            self.htmltable += f"(<a href=\"/race_materials/{self.race_materials_name}_patch.zpf\" class=\"materials\" download>Download Patch</a>) "
-            self.htmltable += f"(<a href=\"/race_materials/{self.race_materials_name}_spoiler.json\" class=\"materials\" download>Download Spoiler</a>)"
+
+            # Check if a url should be used for the rated
+            ratedasyncN = self.slug.split(' ')[-1]
+            if int(ratedasyncN) > 10:
+                with open("other_races/spoilers.json") as loginfoinfile:
+                    loginfo = json.load(loginfoinfile)
+                if ratedasyncN in loginfo:
+                    self.htmltable += f"(<a href=\"{loginfo[ratedasyncN]}\" class=\"materials\">Seed Available at ootrandomizer.com</a>)"
+            
+            # For older rated asyncs rolled manually - NO INFO IS UPLOADED FOR THESE RATED ASYNCS
+            # else:
+            #     self.htmltable += f"(<a href=\"/race_materials/{self.race_materials_name}_patch.zpf\" class=\"materials\" download>Download Patch</a>) "
+            #     self.htmltable += f"(<a href=\"/race_materials/{self.race_materials_name}_spoiler.json\" class=\"materials\" download>Download Spoiler</a>)"
             self.htmltable += "</span>"
         if self.on_racetime:
             self.htmltable += f"<span class=\"race-date\">{tools.pretty_race_date(self.datetime)}</span>"

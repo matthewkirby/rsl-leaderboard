@@ -1,0 +1,16 @@
+Rated Async 5
+rated_async_5
+2021-12-08T04:00:00Z
+https://racetime.gg/user/AEk8wpokQVB5KQyV,1,Timmy2405,done,P0DT4H23M56S
+https://racetime.gg/user/NY0OkW1Y2vWKalP1,2,BrotinderDose,done,P0DT4H30M51S
+https://racetime.gg/user/pRbOXG3yvOoZVKq1,3,Kirox,done,P0DT4H45M0S
+https://racetime.gg/user/NX5783JdQXWqlL0a,4,Flouflouche,done,P0DT5H35M9S
+https://racetime.gg/user/PyZ2Dv30Q4oewXma,5,xopar,done,P0DT6H25M4S
+https://racetime.gg/user/R8QGZrB2k03Ngk4V,6,Challensois,done,P0DT7H5M35S
+https://racetime.gg/user/ZbpNAaBv40oJkg04,null,Weasel2366,dnf,null
+https://racetime.gg/user/bjZ2EGWbp53YlM65,null,tenacious_toad,dnf,null
+https://racetime.gg/user/5rNGD3DKVaB9blOy,null,FantaTanked,dnf,null
+https://racetime.gg/user/XGzr7pBM9GBkqgyE,null,DgBarca,dnf,null
+https://racetime.gg/user/R6ym83mZpYoPd1Xr,null,favio94,dnf,null
+https://racetime.gg/user/AEk8wpokPVW5KQyV,null,Chimpanreeve,dnf,null
+https://racetime.gg/user/AEk8wpok9GB5KQyV,null,Hellknight86,dnf,null

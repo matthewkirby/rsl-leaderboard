@@ -44,7 +44,7 @@ class Setting:
 
 
 def download_weights():
-    r = requests.get("https://raw.githubusercontent.com/matthewkirby/plando-random-settings/master/weights/rsl_season3.json")
+    r = requests.get("https://raw.githubusercontent.com/matthewkirby/plando-random-settings/master/weights/rsl_season4.json")
     weightdict = r.json()['weights']
 
     settinglist = []
@@ -140,4 +140,6 @@ aliasdict = {
     "ganon_bosskey_medallions": "Medallions Required for Ganon Boss Key",
     "ganon_bosskey_stones": "Stones Required for Ganon Boss Key",
     "ganon_bosskey_rewards": "Dungeon Rewards Required for Ganon Boss Key",
+    "shopsanity_prices": "Shopsanity Prices",
+    "correct_chest_appearances": "Chest Sizes and Textures"
 }

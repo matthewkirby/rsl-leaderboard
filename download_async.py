@@ -6,7 +6,9 @@ import datetime as dt
 
 
 patreon_conversion = {
-    "emosoda": "07QXz83Ke6WeZDjr"
+    "emosoda": "07QXz83Ke6WeZDjr",
+    "rando-god": "PyZ2Dv30Q4oewXma",
+    "BrotinderDose": "NY0OkW1Y2vWKalP1"
 }
 
 
@@ -107,7 +109,7 @@ def main():
     with open(f"other_races/rated_async_{asyn_number}.txt", 'w') as fp:
         fp.write(f"Rated Async {asyn_number}\n")
         fp.write(f"rated_async_{asyn_number}\n")
-        fp.write(f"2021-{today.month:02d}-{today.day:02d}T04:00:00Z\n")
+        fp.write(f"2022-{today.month:02d}-{today.day:02d}T04:00:00Z\n")
         for entr in entrants:
             fp.write(entr.build_output_row())
         

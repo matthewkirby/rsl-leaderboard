@@ -23,6 +23,8 @@ def print_leaderboard(leaderboard, fp=sys.stdout):
 
 def main():
     random.seed(69420)
+    ngames_qual = 3
+
     # Fetch missing racetime race data
     asynclist = [asyn.strip() for asyn in open("asynclist.txt", 'r')]
     races_to_fetch = [slug.strip() for slug in open("sluglist.txt", 'r')] + download_sluglist()
@@ -30,8 +32,10 @@ def main():
         fetch_race(slug)
 
     # Load the race data
-    racelist = [Race(race_fname) for race_fname in glob.glob("races/**.json")]
+    race_omit_list = [f"races/{slug.strip()}.json" for slug in open("races/race_exclusion_list.txt", 'r')]
+    racelist = [Race(race_fname) for race_fname in glob.glob("races/**.json") if race_fname not in race_omit_list]
     racelist += [Race("other_races/"+slug+".txt", asyn=True) for slug in asynclist]
+    print(len(racelist))
 
     # Sort the races in order of date
     racelist.sort(key=lambda race: race.datetime)
@@ -72,7 +76,7 @@ def main():
     for player in global_playerlist:
         if player.finishes == 0:
             continue
-        elif player.finishes < 3:
+        elif player.finishes < ngames_qual:
             unqualed.append(player)
         else:
             leaderboard.append(player)
@@ -81,7 +85,7 @@ def main():
 
 
     # Print and save rankings to a file
-    print_leaderboard(global_playerlist)
+    # print_leaderboard(global_playerlist)
     with open("leaderboard.txt", 'w') as lbout:
         print_leaderboard(global_playerlist, lbout)
     generate_website(leaderboard, unqualed, racelist)
