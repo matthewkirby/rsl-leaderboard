@@ -235,3 +235,7 @@ a.table:hover, a.table:focus, a.materials:hover, a.materials:focus {
     color: #bdc3c7;
     font-size: 12px;
 }
+
+.last-update-date {
+    text-align: center;
+}

@@ -1,6 +1,6 @@
 import tools
 import weights
-import re
+from datetime import datetime
 
 def generate_website(leaderboard, unqualed, racelist):
     generate_html_leaderboard(leaderboard, unqualed)
@@ -49,7 +49,10 @@ def generate_html_leaderboard(leaderboard, unqualed):
             fp.write(f"<li class=\"table unranked-table\">")
             fp.write(f"<span class=\"unranked-name\">{tools.name_with_link(player)}</span>")
             fp.write(f"<span class=\"unranked-remaining\">{tools.should_i_plural('Finish', 3-player.finishes)} to Qualify</span>")
-        fp.write("</ol>")
+        fp.write("</ol></p>")
+
+        nowtime = datetime.now().strftime("%H:%M:%S %b %-d, %Y")
+        fp.write(f"<div class=\"last-update-date\">Last Updated: {nowtime}</div>")
 
         # Close out tags
         with open("html_templates/closeout.html") as fin:
