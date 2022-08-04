@@ -3,8 +3,8 @@ import json
 import os
 import dateutil.parser
 
-SEASON_START_DATE = dateutil.parser.parse("2021-10-29T00:0:0.000Z")
-SEASON_ACTIVE = False
+SEASON_START_DATE = dateutil.parser.parse("2022-07-29T00:0:0.000Z")
+SEASON_ACTIVE = True
 
 def download_sluglist():
     # If we are between seasons, skip getting new races
@@ -31,7 +31,7 @@ def download_sluglist():
         if race["name"] == last_race:
             break
         if race["goal"]["name"] == "Random settings league":
-            if race["info"].startswith("Random Settings League | Seed: "):
+            if race["info"].startswith("Random Settings League"):
                 sluglist.append(race["name"].split("/")[1])
 
     # Write the slug of the most recent race

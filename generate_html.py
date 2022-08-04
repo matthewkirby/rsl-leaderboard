@@ -19,7 +19,7 @@ def generate_html_leaderboard(leaderboard, unqualed):
 
         # Write the tournament information
         # fp.write("<ol class=\"player-table\">")
-        # fp.write("<span class=\"table-header\"><h4>Season 4 Tournament Information</h4></span>")
+        # fp.write("<span class=\"table-header\"><h4>Season 5 Tournament Information</h4></span>")
         # fp.write("<li class=\"table\"><span class=\"resource-element\">")
         # fp.write("<a href=\"https://docs.google.com/spreadsheets/d/1IyXCCq0iowzCoUH7mB8oSduiQU6QqLY6LE1nJEKUOMs\" class=\"table\">Swiss Pairings</a>")
         # fp.write("</span></li>")
@@ -30,7 +30,7 @@ def generate_html_leaderboard(leaderboard, unqualed):
 
         # Write the leaderboard
         fp.write("<ol class=\"player-table\">")
-        fp.write("<span class=\"table-header\"><h4>RSL Season 4</h4></span>")
+        fp.write("<span class=\"table-header\"><h4>RSL Season 5</h4></span>")
         for player, place in zip(leaderboard, range(len(leaderboard))):
             fp.write(f"<li class=\"table\">")
             fp.write(f"<span class=\"placement\">{tools.pretty_placement(int(1+place))}</span>")
