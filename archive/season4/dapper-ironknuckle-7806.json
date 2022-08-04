@@ -1,0 +1,138 @@
+{
+    "version": 15,
+    "name": "ootr/dapper-ironknuckle-7806",
+    "slug": "dapper-ironknuckle-7806",
+    "status": {
+        "value": "finished",
+        "verbose_value": "Finished",
+        "help_text": "This race has been completed"
+    },
+    "url": "/ootr/dapper-ironknuckle-7806",
+    "data_url": "/ootr/dapper-ironknuckle-7806/data",
+    "websocket_url": "/ws/race/dapper-ironknuckle-7806",
+    "websocket_bot_url": "/ws/o/bot/dapper-ironknuckle-7806",
+    "websocket_oauth_url": "/ws/o/race/dapper-ironknuckle-7806",
+    "category": {
+        "name": "Ocarina of Time Randomizer",
+        "short_name": "OoTR",
+        "slug": "ootr",
+        "url": "/ootr",
+        "data_url": "/ootr/data",
+        "image": "https://racetime.gg/media/zootr.png"
+    },
+    "goal": {
+        "name": "Random settings league",
+        "custom": false
+    },
+    "info": "Random Settings League | Seed: https://ootr.fenhl.net/seed/OoT_48CF5_LT7WV0VT58.zpf",
+    "team_race": false,
+    "entrants_count": 2,
+    "entrants_count_finished": 1,
+    "entrants_count_inactive": 1,
+    "entrants": [
+        {
+            "user": {
+                "id": "R6ym83mZpYoPd1Xr",
+                "full_name": "favio94#9972",
+                "name": "favio94",
+                "discriminator": "9972",
+                "url": "/user/R6ym83mZpYoPd1Xr",
+                "avatar": null,
+                "pronouns": null,
+                "flair": "",
+                "twitch_name": "favio9414",
+                "twitch_display_name": "favio9414",
+                "twitch_channel": "https://www.twitch.tv/favio9414",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT03H19M54.378945S",
+            "finished_at": "2021-11-18T04:54:47.344Z",
+            "place": 1,
+            "place_ordinal": "1st",
+            "score": 2421,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "PyZ2Dv30Q4oewXma",
+                "full_name": "Xopar",
+                "name": "Xopar",
+                "discriminator": null,
+                "url": "/user/rando-god",
+                "avatar": "https://racetime.gg/media/80743.jpg",
+                "pronouns": "he/him",
+                "flair": "supporter moderator",
+                "twitch_name": "xopar",
+                "twitch_display_name": "Xopar",
+                "twitch_channel": "https://www.twitch.tv/xopar",
+                "can_moderate": true
+            },
+            "team": null,
+            "status": {
+                "value": "dnf",
+                "verbose_value": "DNF",
+                "help_text": "Did not finish the race."
+            },
+            "finish_time": null,
+            "finished_at": null,
+            "place": null,
+            "place_ordinal": null,
+            "score": 2581,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        }
+    ],
+    "opened_at": "2021-11-18T01:19:30.747Z",
+    "start_delay": "P0DT00H00M15S",
+    "started_at": "2021-11-18T01:34:52.965Z",
+    "ended_at": "2021-11-18T05:05:17.153Z",
+    "cancelled_at": null,
+    "unlisted": false,
+    "time_limit": "P1DT00H00M00S",
+    "require_even_teams": false,
+    "streaming_required": true,
+    "auto_start": true,
+    "opened_by": {
+        "id": "PyZ2Dv30Q4oewXma",
+        "full_name": "Xopar",
+        "name": "Xopar",
+        "discriminator": null,
+        "url": "/user/rando-god",
+        "avatar": "https://racetime.gg/media/80743.jpg",
+        "pronouns": "he/him",
+        "flair": "supporter moderator",
+        "twitch_name": "xopar",
+        "twitch_display_name": "Xopar",
+        "twitch_channel": "https://www.twitch.tv/xopar",
+        "can_moderate": true
+    },
+    "monitors": [],
+    "recordable": true,
+    "recorded": false,
+    "recorded_by": null,
+    "allow_comments": true,
+    "hide_comments": false,
+    "allow_prerace_chat": true,
+    "allow_midrace_chat": true,
+    "allow_non_entrant_chat": true,
+    "chat_message_delay": "P0DT00H00M00S"
+}

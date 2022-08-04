@@ -1,0 +1,173 @@
+{
+    "version": 26,
+    "name": "ootr/tactical-fado-8807",
+    "slug": "tactical-fado-8807",
+    "status": {
+        "value": "finished",
+        "verbose_value": "Finished",
+        "help_text": "This race has been completed"
+    },
+    "url": "/ootr/tactical-fado-8807",
+    "data_url": "/ootr/tactical-fado-8807/data",
+    "websocket_url": "/ws/race/tactical-fado-8807",
+    "websocket_bot_url": "/ws/o/bot/tactical-fado-8807",
+    "websocket_oauth_url": "/ws/o/race/tactical-fado-8807",
+    "category": {
+        "name": "Ocarina of Time Randomizer",
+        "short_name": "OoTR",
+        "slug": "ootr",
+        "url": "/ootr",
+        "data_url": "/ootr/data",
+        "image": "https://racetime.gg/media/zootr.png"
+    },
+    "goal": {
+        "name": "Random settings league",
+        "custom": false
+    },
+    "info": "Random Settings League | Seed: https://ootr.fenhl.net/seed/OoT_2E062_T57PGF5ULL.zpf",
+    "team_race": false,
+    "entrants_count": 3,
+    "entrants_count_finished": 2,
+    "entrants_count_inactive": 1,
+    "entrants": [
+        {
+            "user": {
+                "id": "AEk8wpokQVB5KQyV",
+                "full_name": "Timmy2405#6103",
+                "name": "Timmy2405",
+                "discriminator": "6103",
+                "url": "/user/AEk8wpokQVB5KQyV",
+                "avatar": "https://racetime.gg/media/steam.png",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "timmy2405",
+                "twitch_display_name": "Timmy2405",
+                "twitch_channel": "https://www.twitch.tv/timmy2405",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT01H45M31.861163S",
+            "finished_at": "2022-01-18T21:20:28.416Z",
+            "place": 1,
+            "place_ordinal": "1st",
+            "score": 2846,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "NZ1KRBOg69B4qAyj",
+                "full_name": "Alf#5942",
+                "name": "Alf",
+                "discriminator": "5942",
+                "url": "/user/NZ1KRBOg69B4qAyj",
+                "avatar": "https://racetime.gg/media/jwkn49nv_400x400.jpg",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "alfakenyjuan",
+                "twitch_display_name": "Alfakenyjuan",
+                "twitch_channel": "https://www.twitch.tv/alfakenyjuan",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT02H09M34.262257S",
+            "finished_at": "2022-01-18T21:44:30.817Z",
+            "place": 2,
+            "place_ordinal": "2nd",
+            "score": 2020,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "AEk8wpok9GB5KQyV",
+                "full_name": "Hellknight86#4990",
+                "name": "Hellknight86",
+                "discriminator": "4990",
+                "url": "/user/AEk8wpok9GB5KQyV",
+                "avatar": null,
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "hellknight86",
+                "twitch_display_name": "Hellknight86",
+                "twitch_channel": "https://www.twitch.tv/hellknight86",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "dnf",
+                "verbose_value": "DNF",
+                "help_text": "Did not finish the race."
+            },
+            "finish_time": null,
+            "finished_at": null,
+            "place": null,
+            "place_ordinal": null,
+            "score": 2120,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        }
+    ],
+    "opened_at": "2022-01-18T18:45:17.575Z",
+    "start_delay": "P0DT00H00M15S",
+    "started_at": "2022-01-18T19:34:56.555Z",
+    "ended_at": "2022-01-18T21:45:33.844Z",
+    "cancelled_at": null,
+    "unlisted": false,
+    "time_limit": "P1DT00H00M00S",
+    "require_even_teams": false,
+    "streaming_required": true,
+    "auto_start": true,
+    "opened_by": {
+        "id": "AEk8wpokQVB5KQyV",
+        "full_name": "Timmy2405#6103",
+        "name": "Timmy2405",
+        "discriminator": "6103",
+        "url": "/user/AEk8wpokQVB5KQyV",
+        "avatar": "https://racetime.gg/media/steam.png",
+        "pronouns": "he/him",
+        "flair": "",
+        "twitch_name": "timmy2405",
+        "twitch_display_name": "Timmy2405",
+        "twitch_channel": "https://www.twitch.tv/timmy2405",
+        "can_moderate": false
+    },
+    "monitors": [],
+    "recordable": true,
+    "recorded": false,
+    "recorded_by": null,
+    "allow_comments": true,
+    "hide_comments": true,
+    "allow_prerace_chat": true,
+    "allow_midrace_chat": true,
+    "allow_non_entrant_chat": true,
+    "chat_message_delay": "P0DT00H00M00S"
+}

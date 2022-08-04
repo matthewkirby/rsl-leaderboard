@@ -1,0 +1,208 @@
+{
+    "version": 26,
+    "name": "ootr/powerful-bongobongo-0987",
+    "slug": "powerful-bongobongo-0987",
+    "status": {
+        "value": "finished",
+        "verbose_value": "Finished",
+        "help_text": "This race has been completed"
+    },
+    "url": "/ootr/powerful-bongobongo-0987",
+    "data_url": "/ootr/powerful-bongobongo-0987/data",
+    "websocket_url": "/ws/race/powerful-bongobongo-0987",
+    "websocket_bot_url": "/ws/o/bot/powerful-bongobongo-0987",
+    "websocket_oauth_url": "/ws/o/race/powerful-bongobongo-0987",
+    "category": {
+        "name": "Ocarina of Time Randomizer",
+        "short_name": "OoTR",
+        "slug": "ootr",
+        "url": "/ootr",
+        "data_url": "/ootr/data",
+        "image": "https://racetime.gg/media/zootr.png"
+    },
+    "goal": {
+        "name": "Random settings league",
+        "custom": false
+    },
+    "info": "Random Settings League | Seed: https://ootr.fenhl.net/seed/OoT_8CDC8_GXW1DPB9JW.zpf",
+    "team_race": false,
+    "entrants_count": 4,
+    "entrants_count_finished": 1,
+    "entrants_count_inactive": 3,
+    "entrants": [
+        {
+            "user": {
+                "id": "dMqzQPW4jv31L2R5",
+                "full_name": "Marco#4636",
+                "name": "Marco",
+                "discriminator": "4636",
+                "url": "/user/dMqzQPW4jv31L2R5",
+                "avatar": null,
+                "pronouns": null,
+                "flair": "",
+                "twitch_name": "marco",
+                "twitch_display_name": "Marco",
+                "twitch_channel": "https://www.twitch.tv/marco",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT04H34M06.330994S",
+            "finished_at": "2022-01-28T00:41:40.475Z",
+            "place": 1,
+            "place_ordinal": "1st",
+            "score": 2985,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "kzM65aWXldW1y8q0",
+                "full_name": "mracsys#1993",
+                "name": "mracsys",
+                "discriminator": "1993",
+                "url": "/user/kzM65aWXldW1y8q0",
+                "avatar": "https://racetime.gg/media/riven_oculus.jpg",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "mracsys",
+                "twitch_display_name": "mracsys",
+                "twitch_channel": "https://www.twitch.tv/mracsys",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "dnf",
+                "verbose_value": "DNF",
+                "help_text": "Did not finish the race."
+            },
+            "finish_time": null,
+            "finished_at": null,
+            "place": null,
+            "place_ordinal": null,
+            "score": 2339,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "kzM65aWXd5W1y8q0",
+                "full_name": "LePlopeur#3629",
+                "name": "LePlopeur",
+                "discriminator": "3629",
+                "url": "/user/kzM65aWXd5W1y8q0",
+                "avatar": null,
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "leplopeur",
+                "twitch_display_name": "LePlopeur",
+                "twitch_channel": "https://www.twitch.tv/leplopeur",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "dnf",
+                "verbose_value": "DNF",
+                "help_text": "Did not finish the race."
+            },
+            "finish_time": null,
+            "finished_at": null,
+            "place": null,
+            "place_ordinal": null,
+            "score": 2293,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "NZ1KRBOg69B4qAyj",
+                "full_name": "Alf#5942",
+                "name": "Alf",
+                "discriminator": "5942",
+                "url": "/user/NZ1KRBOg69B4qAyj",
+                "avatar": "https://racetime.gg/media/jwkn49nv_400x400.jpg",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "alfakenyjuan",
+                "twitch_display_name": "Alfakenyjuan",
+                "twitch_channel": "https://www.twitch.tv/alfakenyjuan",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "dnf",
+                "verbose_value": "DNF",
+                "help_text": "Did not finish the race."
+            },
+            "finish_time": null,
+            "finished_at": null,
+            "place": null,
+            "place_ordinal": null,
+            "score": 2070,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        }
+    ],
+    "opened_at": "2022-01-27T19:34:32.171Z",
+    "start_delay": "P0DT00H00M15S",
+    "started_at": "2022-01-27T20:07:34.144Z",
+    "ended_at": "2022-01-28T02:16:38.583Z",
+    "cancelled_at": null,
+    "unlisted": false,
+    "time_limit": "P1DT00H00M00S",
+    "require_even_teams": false,
+    "streaming_required": true,
+    "auto_start": true,
+    "opened_by": {
+        "id": "kzM65aWXldW1y8q0",
+        "full_name": "mracsys#1993",
+        "name": "mracsys",
+        "discriminator": "1993",
+        "url": "/user/kzM65aWXldW1y8q0",
+        "avatar": "https://racetime.gg/media/riven_oculus.jpg",
+        "pronouns": "he/him",
+        "flair": "",
+        "twitch_name": "mracsys",
+        "twitch_display_name": "mracsys",
+        "twitch_channel": "https://www.twitch.tv/mracsys",
+        "can_moderate": false
+    },
+    "monitors": [],
+    "recordable": true,
+    "recorded": false,
+    "recorded_by": null,
+    "allow_comments": true,
+    "hide_comments": true,
+    "allow_prerace_chat": true,
+    "allow_midrace_chat": true,
+    "allow_non_entrant_chat": true,
+    "chat_message_delay": "P0DT00H00M00S"
+}

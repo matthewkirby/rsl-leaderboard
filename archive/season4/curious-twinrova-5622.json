@@ -1,0 +1,173 @@
+{
+    "version": 21,
+    "name": "ootr/curious-twinrova-5622",
+    "slug": "curious-twinrova-5622",
+    "status": {
+        "value": "finished",
+        "verbose_value": "Finished",
+        "help_text": "This race has been completed"
+    },
+    "url": "/ootr/curious-twinrova-5622",
+    "data_url": "/ootr/curious-twinrova-5622/data",
+    "websocket_url": "/ws/race/curious-twinrova-5622",
+    "websocket_bot_url": "/ws/o/bot/curious-twinrova-5622",
+    "websocket_oauth_url": "/ws/o/race/curious-twinrova-5622",
+    "category": {
+        "name": "Ocarina of Time Randomizer",
+        "short_name": "OoTR",
+        "slug": "ootr",
+        "url": "/ootr",
+        "data_url": "/ootr/data",
+        "image": "https://racetime.gg/media/zootr.png"
+    },
+    "goal": {
+        "name": "Random settings league",
+        "custom": false
+    },
+    "info": "Random Settings League | Seed: https://ootr.fenhl.net/seed/OoT_09BAA_KDW07CFXCY.zpf",
+    "team_race": false,
+    "entrants_count": 3,
+    "entrants_count_finished": 2,
+    "entrants_count_inactive": 1,
+    "entrants": [
+        {
+            "user": {
+                "id": "NZ1KRBOg69B4qAyj",
+                "full_name": "Alf#5942",
+                "name": "Alf",
+                "discriminator": "5942",
+                "url": "/user/NZ1KRBOg69B4qAyj",
+                "avatar": "https://racetime.gg/media/jwkn49nv_400x400.jpg",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "alfakenyjuan",
+                "twitch_display_name": "Alfakenyjuan",
+                "twitch_channel": "https://www.twitch.tv/alfakenyjuan",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT03H21M33.165486S",
+            "finished_at": "2022-02-13T05:52:40.542Z",
+            "place": 1,
+            "place_ordinal": "1st",
+            "score": 2098,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "NY0OkW1Y2vWKalP1",
+                "full_name": "BrotinderDose",
+                "name": "BrotinderDose",
+                "discriminator": null,
+                "url": "/user/BrotinderDose",
+                "avatar": "https://racetime.gg/media/Waving112.png",
+                "pronouns": "he/him",
+                "flair": "supporter",
+                "twitch_name": "brotinderdose",
+                "twitch_display_name": "Brotinderdose",
+                "twitch_channel": "https://www.twitch.tv/brotinderdose",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT04H28M01.616667S",
+            "finished_at": "2022-02-13T06:59:08.993Z",
+            "place": 2,
+            "place_ordinal": "2nd",
+            "score": 1537,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "b52QE8oNnwolywqX",
+                "full_name": "FQef#8592",
+                "name": "FQef",
+                "discriminator": "8592",
+                "url": "/user/b52QE8oNnwolywqX",
+                "avatar": "https://racetime.gg/media/538960-pocky.jpg",
+                "pronouns": "he/him",
+                "flair": "moderator",
+                "twitch_name": "fqef92",
+                "twitch_display_name": "FQef92",
+                "twitch_channel": "https://www.twitch.tv/fqef92",
+                "can_moderate": true
+            },
+            "team": null,
+            "status": {
+                "value": "dnf",
+                "verbose_value": "DNF",
+                "help_text": "Did not finish the race."
+            },
+            "finish_time": null,
+            "finished_at": null,
+            "place": null,
+            "place_ordinal": null,
+            "score": 1812,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        }
+    ],
+    "opened_at": "2022-02-13T01:54:43.597Z",
+    "start_delay": "P0DT00H00M15S",
+    "started_at": "2022-02-13T02:31:07.376Z",
+    "ended_at": "2022-02-13T06:59:09.084Z",
+    "cancelled_at": null,
+    "unlisted": false,
+    "time_limit": "P1DT00H00M00S",
+    "require_even_teams": false,
+    "streaming_required": true,
+    "auto_start": true,
+    "opened_by": {
+        "id": "NZ1KRBOg69B4qAyj",
+        "full_name": "Alf#5942",
+        "name": "Alf",
+        "discriminator": "5942",
+        "url": "/user/NZ1KRBOg69B4qAyj",
+        "avatar": "https://racetime.gg/media/jwkn49nv_400x400.jpg",
+        "pronouns": "he/him",
+        "flair": "",
+        "twitch_name": "alfakenyjuan",
+        "twitch_display_name": "Alfakenyjuan",
+        "twitch_channel": "https://www.twitch.tv/alfakenyjuan",
+        "can_moderate": false
+    },
+    "monitors": [],
+    "recordable": true,
+    "recorded": false,
+    "recorded_by": null,
+    "allow_comments": true,
+    "hide_comments": true,
+    "allow_prerace_chat": true,
+    "allow_midrace_chat": true,
+    "allow_non_entrant_chat": true,
+    "chat_message_delay": "P0DT00H00M00S"
+}

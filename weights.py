@@ -44,11 +44,13 @@ class Setting:
 
 
 def download_weights():
-    r = requests.get("https://raw.githubusercontent.com/matthewkirby/plando-random-settings/master/weights/rsl_season4.json")
+    r = requests.get("https://raw.githubusercontent.com/matthewkirby/plando-random-settings/master/weights/rsl_season5.json")
     weightdict = r.json()['weights']
 
     settinglist = []
     for name, weights in weightdict.items():
+        if name in setting_skip_list:
+            continue
         settinglist.append(Setting(name, weights))
 
     return settinglist
@@ -141,5 +143,16 @@ aliasdict = {
     "ganon_bosskey_stones": "Stones Required for Ganon Boss Key",
     "ganon_bosskey_rewards": "Dungeon Rewards Required for Ganon Boss Key",
     "shopsanity_prices": "Shopsanity Prices",
-    "correct_chest_appearances": "Chest Sizes and Textures"
+    "correct_chest_appearances": "Chest Sizes and Textures",
+    "plant_beans": "Beans Start Planted",
+    "shuffle_bosses": "Boss Shuffle",
+    "dungeon_shortcuts_choice": "Dungeon Shortcuts",
+    "deadly_bonks": "One Bonk KO",
+    "blue_fire_arrows": "Blue Fire Arrows",
+    "invisible_chests": "Invisible Chests",
+    "shuffle_frog_song_rupees": "Frogsanity"
 }
+
+setting_skip_list = [
+    "mq_dungeons_mode", "mq_dungeons_count", "easier_fire_arrow_entry", "fae_torch_count"
+]

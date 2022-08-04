@@ -1,0 +1,138 @@
+{
+    "version": 16,
+    "name": "ootr/magnificent-biggoron-2079",
+    "slug": "magnificent-biggoron-2079",
+    "status": {
+        "value": "finished",
+        "verbose_value": "Finished",
+        "help_text": "This race has been completed"
+    },
+    "url": "/ootr/magnificent-biggoron-2079",
+    "data_url": "/ootr/magnificent-biggoron-2079/data",
+    "websocket_url": "/ws/race/magnificent-biggoron-2079",
+    "websocket_bot_url": "/ws/o/bot/magnificent-biggoron-2079",
+    "websocket_oauth_url": "/ws/o/race/magnificent-biggoron-2079",
+    "category": {
+        "name": "Ocarina of Time Randomizer",
+        "short_name": "OoTR",
+        "slug": "ootr",
+        "url": "/ootr",
+        "data_url": "/ootr/data",
+        "image": "https://racetime.gg/media/zootr.png"
+    },
+    "goal": {
+        "name": "Random settings league",
+        "custom": false
+    },
+    "info": "Random Settings League | Seed: https://ootr.fenhl.net/seed/OoT_A2151_Y6JC28YF7E.zpf",
+    "team_race": false,
+    "entrants_count": 2,
+    "entrants_count_finished": 2,
+    "entrants_count_inactive": 0,
+    "entrants": [
+        {
+            "user": {
+                "id": "q5rNGD3DKlB9blOy",
+                "full_name": "WTHH#3353",
+                "name": "WTHH",
+                "discriminator": "3353",
+                "url": "/user/q5rNGD3DKlB9blOy",
+                "avatar": null,
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "whatthehellshappened",
+                "twitch_display_name": "Whatthehellshappened",
+                "twitch_channel": "https://www.twitch.tv/whatthehellshappened",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT02H47M21.881596S",
+            "finished_at": "2021-11-19T03:25:20.237Z",
+            "place": 1,
+            "place_ordinal": "1st",
+            "score": 2668,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "ZbpNAaBv40oJkg04",
+                "full_name": "Weasel2366#5808",
+                "name": "Weasel2366",
+                "discriminator": "5808",
+                "url": "/user/ZbpNAaBv40oJkg04",
+                "avatar": null,
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "weasel2366",
+                "twitch_display_name": "Weasel2366",
+                "twitch_channel": "https://www.twitch.tv/weasel2366",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT03H16M49.025301S",
+            "finished_at": "2021-11-19T03:54:47.381Z",
+            "place": 2,
+            "place_ordinal": "2nd",
+            "score": 1998,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        }
+    ],
+    "opened_at": "2021-11-19T00:09:10.594Z",
+    "start_delay": "P0DT00H00M15S",
+    "started_at": "2021-11-19T00:37:58.355Z",
+    "ended_at": "2021-11-19T03:54:47.464Z",
+    "cancelled_at": null,
+    "unlisted": false,
+    "time_limit": "P1DT00H00M00S",
+    "require_even_teams": false,
+    "streaming_required": true,
+    "auto_start": true,
+    "opened_by": {
+        "id": "q5rNGD3DKlB9blOy",
+        "full_name": "WTHH#3353",
+        "name": "WTHH",
+        "discriminator": "3353",
+        "url": "/user/q5rNGD3DKlB9blOy",
+        "avatar": null,
+        "pronouns": "he/him",
+        "flair": "",
+        "twitch_name": "whatthehellshappened",
+        "twitch_display_name": "Whatthehellshappened",
+        "twitch_channel": "https://www.twitch.tv/whatthehellshappened",
+        "can_moderate": false
+    },
+    "monitors": [],
+    "recordable": true,
+    "recorded": false,
+    "recorded_by": null,
+    "allow_comments": true,
+    "hide_comments": false,
+    "allow_prerace_chat": true,
+    "allow_midrace_chat": true,
+    "allow_non_entrant_chat": true,
+    "chat_message_delay": "P0DT00H00M00S"
+}

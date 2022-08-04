@@ -4,8 +4,14 @@ import os
 import dateutil.parser
 
 SEASON_START_DATE = dateutil.parser.parse("2021-10-29T00:0:0.000Z")
+SEASON_ACTIVE = False
 
 def download_sluglist():
+    # If we are between seasons, skip getting new races
+    if not SEASON_ACTIVE:
+        print("Season not active, skipping leaderboard update.")
+        return []
+
     sluglist = []
     with open("races/last_race_seen.txt", 'r') as fp:
         last_race = fp.read()

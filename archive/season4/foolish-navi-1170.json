@@ -1,0 +1,208 @@
+{
+    "version": 30,
+    "name": "ootr/foolish-navi-1170",
+    "slug": "foolish-navi-1170",
+    "status": {
+        "value": "finished",
+        "verbose_value": "Finished",
+        "help_text": "This race has been completed"
+    },
+    "url": "/ootr/foolish-navi-1170",
+    "data_url": "/ootr/foolish-navi-1170/data",
+    "websocket_url": "/ws/race/foolish-navi-1170",
+    "websocket_bot_url": "/ws/o/bot/foolish-navi-1170",
+    "websocket_oauth_url": "/ws/o/race/foolish-navi-1170",
+    "category": {
+        "name": "Ocarina of Time Randomizer",
+        "short_name": "OoTR",
+        "slug": "ootr",
+        "url": "/ootr",
+        "data_url": "/ootr/data",
+        "image": "https://racetime.gg/media/zootr.png"
+    },
+    "goal": {
+        "name": "Random settings league",
+        "custom": false
+    },
+    "info": "Random Settings League | Seed: https://ootr.fenhl.net/seed/OoT_77EDA_WHW9I6RWSN.zpf",
+    "team_race": false,
+    "entrants_count": 4,
+    "entrants_count_finished": 3,
+    "entrants_count_inactive": 1,
+    "entrants": [
+        {
+            "user": {
+                "id": "yDMLq1oZz0oOeQG8",
+                "full_name": "Oximan#8883",
+                "name": "Oximan",
+                "discriminator": "8883",
+                "url": "/user/yDMLq1oZz0oOeQG8",
+                "avatar": null,
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "oxidude",
+                "twitch_display_name": "OXIdude",
+                "twitch_channel": "https://www.twitch.tv/oxidude",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT05H21M44.422194S",
+            "finished_at": "2021-11-23T00:53:08.018Z",
+            "place": 1,
+            "place_ordinal": "1st",
+            "score": 2422,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "NX5783JdQXWqlL0a",
+                "full_name": "Flouflouche#1934",
+                "name": "Flouflouche",
+                "discriminator": "1934",
+                "url": "/user/NX5783JdQXWqlL0a",
+                "avatar": "https://racetime.gg/media/Samus.png",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "flouflouche1994",
+                "twitch_display_name": "Flouflouche1994",
+                "twitch_channel": "https://www.twitch.tv/flouflouche1994",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT05H23M08.611894S",
+            "finished_at": "2021-11-23T00:54:32.207Z",
+            "place": 2,
+            "place_ordinal": "2nd",
+            "score": 2595,
+            "score_change": null,
+            "comment": "usedP",
+            "has_comment": true,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "change_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "NZ1KRBOg69B4qAyj",
+                "full_name": "Alf#5942",
+                "name": "Alf",
+                "discriminator": "5942",
+                "url": "/user/NZ1KRBOg69B4qAyj",
+                "avatar": "https://racetime.gg/media/jwkn49nv_400x400.jpg",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "alfakenyjuan",
+                "twitch_display_name": "Alfakenyjuan",
+                "twitch_channel": "https://www.twitch.tv/alfakenyjuan",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT06H07M09.019693S",
+            "finished_at": "2021-11-23T01:38:32.615Z",
+            "place": 3,
+            "place_ordinal": "3rd",
+            "score": 1878,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "R6ym83mZrboPd1Xr",
+                "full_name": "Blueseangfh2#1828",
+                "name": "Blueseangfh2",
+                "discriminator": "1828",
+                "url": "/user/R6ym83mZrboPd1Xr",
+                "avatar": "https://racetime.gg/media/553E1827-C53D-4207-BC6D-012775CEC29C.png",
+                "pronouns": null,
+                "flair": "",
+                "twitch_name": "blueseangfh2",
+                "twitch_display_name": "Blueseangfh2",
+                "twitch_channel": "https://www.twitch.tv/blueseangfh2",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "dnf",
+                "verbose_value": "DNF",
+                "help_text": "Did not finish the race."
+            },
+            "finish_time": null,
+            "finished_at": null,
+            "place": null,
+            "place_ordinal": null,
+            "score": 1847,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        }
+    ],
+    "opened_at": "2021-11-22T19:02:48.309Z",
+    "start_delay": "P0DT00H00M15S",
+    "started_at": "2021-11-22T19:31:23.596Z",
+    "ended_at": "2021-11-23T02:27:32.940Z",
+    "cancelled_at": null,
+    "unlisted": false,
+    "time_limit": "P1DT00H00M00S",
+    "require_even_teams": false,
+    "streaming_required": true,
+    "auto_start": true,
+    "opened_by": {
+        "id": "NX5783JdQXWqlL0a",
+        "full_name": "Flouflouche#1934",
+        "name": "Flouflouche",
+        "discriminator": "1934",
+        "url": "/user/NX5783JdQXWqlL0a",
+        "avatar": "https://racetime.gg/media/Samus.png",
+        "pronouns": "he/him",
+        "flair": "",
+        "twitch_name": "flouflouche1994",
+        "twitch_display_name": "Flouflouche1994",
+        "twitch_channel": "https://www.twitch.tv/flouflouche1994",
+        "can_moderate": false
+    },
+    "monitors": [],
+    "recordable": true,
+    "recorded": false,
+    "recorded_by": null,
+    "allow_comments": true,
+    "hide_comments": true,
+    "allow_prerace_chat": true,
+    "allow_midrace_chat": true,
+    "allow_non_entrant_chat": true,
+    "chat_message_delay": "P0DT00H00M00S"
+}

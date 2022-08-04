@@ -40,6 +40,10 @@
         "destination": "/past_seasons/season3.html"
       },
       {
+        "source": "/season4",
+        "destination": "/past_seasons/season4.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }

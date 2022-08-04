@@ -1,0 +1,173 @@
+{
+    "version": 22,
+    "name": "ootr/clever-ganon-0568",
+    "slug": "clever-ganon-0568",
+    "status": {
+        "value": "finished",
+        "verbose_value": "Finished",
+        "help_text": "This race has been completed"
+    },
+    "url": "/ootr/clever-ganon-0568",
+    "data_url": "/ootr/clever-ganon-0568/data",
+    "websocket_url": "/ws/race/clever-ganon-0568",
+    "websocket_bot_url": "/ws/o/bot/clever-ganon-0568",
+    "websocket_oauth_url": "/ws/o/race/clever-ganon-0568",
+    "category": {
+        "name": "Ocarina of Time Randomizer",
+        "short_name": "OoTR",
+        "slug": "ootr",
+        "url": "/ootr",
+        "data_url": "/ootr/data",
+        "image": "https://racetime.gg/media/zootr.png"
+    },
+    "goal": {
+        "name": "Random settings league",
+        "custom": false
+    },
+    "info": "Random Settings League | Seed: https://ootr.fenhl.net/seed/OoT_BA77D_A4DIM6Z9SA.zpf",
+    "team_race": false,
+    "entrants_count": 3,
+    "entrants_count_finished": 2,
+    "entrants_count_inactive": 1,
+    "entrants": [
+        {
+            "user": {
+                "id": "NZ1KRBOg69B4qAyj",
+                "full_name": "Alf#5942",
+                "name": "Alf",
+                "discriminator": "5942",
+                "url": "/user/NZ1KRBOg69B4qAyj",
+                "avatar": "https://racetime.gg/media/jwkn49nv_400x400.jpg",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "alfakenyjuan",
+                "twitch_display_name": "Alfakenyjuan",
+                "twitch_channel": "https://www.twitch.tv/alfakenyjuan",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT05H43M00.520479S",
+            "finished_at": "2022-02-07T07:46:58.095Z",
+            "place": 1,
+            "place_ordinal": "1st",
+            "score": 2106,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "Qbq4dBpywJ3vlrG0",
+                "full_name": "Synii#6419",
+                "name": "Synii",
+                "discriminator": "6419",
+                "url": "/user/Qbq4dBpywJ3vlrG0",
+                "avatar": "https://racetime.gg/media/Owl_Resize_3.png",
+                "pronouns": null,
+                "flair": "",
+                "twitch_name": "synii1",
+                "twitch_display_name": "Synii1",
+                "twitch_channel": "https://www.twitch.tv/synii1",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT07H05M22.675656S",
+            "finished_at": "2022-02-07T09:09:20.250Z",
+            "place": 2,
+            "place_ordinal": "2nd",
+            "score": 1640,
+            "score_change": null,
+            "comment": "Horrible seed: Last locationing song of time, horrible time of day routing, forgot an entrance which had a WOTH slingshot, bad execution, forgeting checks. One of my worst zootr performances ever",
+            "has_comment": true,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "change_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "dm1LPWjAZGoEnVx6",
+                "full_name": "tlozsr#6500",
+                "name": "tlozsr",
+                "discriminator": "6500",
+                "url": "/user/dm1LPWjAZGoEnVx6",
+                "avatar": null,
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "tlozsr",
+                "twitch_display_name": "tlozsr",
+                "twitch_channel": "https://www.twitch.tv/tlozsr",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "dnf",
+                "verbose_value": "DNF",
+                "help_text": "Did not finish the race."
+            },
+            "finish_time": null,
+            "finished_at": null,
+            "place": null,
+            "place_ordinal": null,
+            "score": 1454,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        }
+    ],
+    "opened_at": "2022-02-07T01:30:29.268Z",
+    "start_delay": "P0DT00H00M15S",
+    "started_at": "2022-02-07T02:03:57.575Z",
+    "ended_at": "2022-02-07T09:09:20.350Z",
+    "cancelled_at": null,
+    "unlisted": false,
+    "time_limit": "P1DT00H00M00S",
+    "require_even_teams": false,
+    "streaming_required": true,
+    "auto_start": true,
+    "opened_by": {
+        "id": "NZ1KRBOg69B4qAyj",
+        "full_name": "Alf#5942",
+        "name": "Alf",
+        "discriminator": "5942",
+        "url": "/user/NZ1KRBOg69B4qAyj",
+        "avatar": "https://racetime.gg/media/jwkn49nv_400x400.jpg",
+        "pronouns": "he/him",
+        "flair": "",
+        "twitch_name": "alfakenyjuan",
+        "twitch_display_name": "Alfakenyjuan",
+        "twitch_channel": "https://www.twitch.tv/alfakenyjuan",
+        "can_moderate": false
+    },
+    "monitors": [],
+    "recordable": true,
+    "recorded": false,
+    "recorded_by": null,
+    "allow_comments": true,
+    "hide_comments": false,
+    "allow_prerace_chat": true,
+    "allow_midrace_chat": true,
+    "allow_non_entrant_chat": true,
+    "chat_message_delay": "P0DT00H00M00S"
+}

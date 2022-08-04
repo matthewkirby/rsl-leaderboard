@@ -1,0 +1,208 @@
+{
+    "version": 37,
+    "name": "ootr/fancy-malon-2690",
+    "slug": "fancy-malon-2690",
+    "status": {
+        "value": "finished",
+        "verbose_value": "Finished",
+        "help_text": "This race has been completed"
+    },
+    "url": "/ootr/fancy-malon-2690",
+    "data_url": "/ootr/fancy-malon-2690/data",
+    "websocket_url": "/ws/race/fancy-malon-2690",
+    "websocket_bot_url": "/ws/o/bot/fancy-malon-2690",
+    "websocket_oauth_url": "/ws/o/race/fancy-malon-2690",
+    "category": {
+        "name": "Ocarina of Time Randomizer",
+        "short_name": "OoTR",
+        "slug": "ootr",
+        "url": "/ootr",
+        "data_url": "/ootr/data",
+        "image": "https://racetime.gg/media/zootr.png"
+    },
+    "goal": {
+        "name": "Random settings league",
+        "custom": false
+    },
+    "info": "Random Settings League | Seed: https://ootr.fenhl.net/seed/OoT_75EC9_3TD5CNDA8P.zpf",
+    "team_race": false,
+    "entrants_count": 4,
+    "entrants_count_finished": 4,
+    "entrants_count_inactive": 0,
+    "entrants": [
+        {
+            "user": {
+                "id": "yDMLq1oZz0oOeQG8",
+                "full_name": "Oximan#8883",
+                "name": "Oximan",
+                "discriminator": "8883",
+                "url": "/user/yDMLq1oZz0oOeQG8",
+                "avatar": null,
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "oxidude",
+                "twitch_display_name": "OXIdude",
+                "twitch_channel": "https://www.twitch.tv/oxidude",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT04H40M16.768266S",
+            "finished_at": "2021-11-04T05:13:40.446Z",
+            "place": 1,
+            "place_ordinal": "1st",
+            "score": 2406,
+            "score_change": null,
+            "comment": "Epona is now in a glue factory",
+            "has_comment": true,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "change_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "bjZ2EGWbp53YlM65",
+                "full_name": "tenacious_toad#5453",
+                "name": "tenacious_toad",
+                "discriminator": "5453",
+                "url": "/user/bjZ2EGWbp53YlM65",
+                "avatar": "https://racetime.gg/media/20200829_183116_opt.jpg",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "tenacious_toad",
+                "twitch_display_name": "tenacious_toad",
+                "twitch_channel": "https://www.twitch.tv/tenacious_toad",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT04H46M48.470396S",
+            "finished_at": "2021-11-04T05:20:12.148Z",
+            "place": 2,
+            "place_ordinal": "2nd",
+            "score": 1924,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "PyZ2Dv30Q4oewXma",
+                "full_name": "Xopar",
+                "name": "Xopar",
+                "discriminator": null,
+                "url": "/user/rando-god",
+                "avatar": "https://racetime.gg/media/80743.jpg",
+                "pronouns": "he/him",
+                "flair": "supporter moderator",
+                "twitch_name": "xopar",
+                "twitch_display_name": "Xopar",
+                "twitch_channel": "https://www.twitch.tv/xopar",
+                "can_moderate": true
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT04H48M02.371366S",
+            "finished_at": "2021-11-04T05:21:26.049Z",
+            "place": 3,
+            "place_ordinal": "3rd",
+            "score": 2595,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "Qbq4dBpywJ3vlrG0",
+                "full_name": "Synii#6419",
+                "name": "Synii",
+                "discriminator": "6419",
+                "url": "/user/Qbq4dBpywJ3vlrG0",
+                "avatar": null,
+                "pronouns": null,
+                "flair": "",
+                "twitch_name": "synii1",
+                "twitch_display_name": "Synii1",
+                "twitch_channel": "https://www.twitch.tv/synii1",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT05H36M41.428337S",
+            "finished_at": "2021-11-04T06:10:05.106Z",
+            "place": 4,
+            "place_ordinal": "4th",
+            "score": 1491,
+            "score_change": null,
+            "comment": "Master quest Water. No idea what to do there even when I followd along with a video. Need to practice master quest in general. Need to actually understand those dungeons",
+            "has_comment": true,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "change_comment"
+            ]
+        }
+    ],
+    "opened_at": "2021-11-04T00:06:09.393Z",
+    "start_delay": "P0DT00H00M15S",
+    "started_at": "2021-11-04T00:33:23.677Z",
+    "ended_at": "2021-11-04T06:10:05.212Z",
+    "cancelled_at": null,
+    "unlisted": false,
+    "time_limit": "P1DT00H00M00S",
+    "require_even_teams": false,
+    "streaming_required": true,
+    "auto_start": true,
+    "opened_by": {
+        "id": "PyZ2Dv30Q4oewXma",
+        "full_name": "Xopar",
+        "name": "Xopar",
+        "discriminator": null,
+        "url": "/user/rando-god",
+        "avatar": "https://racetime.gg/media/80743.jpg",
+        "pronouns": "he/him",
+        "flair": "supporter moderator",
+        "twitch_name": "xopar",
+        "twitch_display_name": "Xopar",
+        "twitch_channel": "https://www.twitch.tv/xopar",
+        "can_moderate": true
+    },
+    "monitors": [],
+    "recordable": true,
+    "recorded": false,
+    "recorded_by": null,
+    "allow_comments": true,
+    "hide_comments": false,
+    "allow_prerace_chat": true,
+    "allow_midrace_chat": true,
+    "allow_non_entrant_chat": true,
+    "chat_message_delay": "P0DT00H00M00S"
+}

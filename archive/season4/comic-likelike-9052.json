@@ -1,0 +1,175 @@
+{
+    "version": 23,
+    "name": "ootr/comic-likelike-9052",
+    "slug": "comic-likelike-9052",
+    "status": {
+        "value": "finished",
+        "verbose_value": "Finished",
+        "help_text": "This race has been completed"
+    },
+    "url": "/ootr/comic-likelike-9052",
+    "data_url": "/ootr/comic-likelike-9052/data",
+    "websocket_url": "/ws/race/comic-likelike-9052",
+    "websocket_bot_url": "/ws/o/bot/comic-likelike-9052",
+    "websocket_oauth_url": "/ws/o/race/comic-likelike-9052",
+    "category": {
+        "name": "Ocarina of Time Randomizer",
+        "short_name": "OoTR",
+        "slug": "ootr",
+        "url": "/ootr",
+        "data_url": "/ootr/data",
+        "image": "https://racetime.gg/media/zootr.png"
+    },
+    "goal": {
+        "name": "Random settings league",
+        "custom": false
+    },
+    "info": "Random Settings League | Seed: https://ootr.fenhl.net/seed/OoT_DB44C_7OGFIP5D8S.zpf",
+    "info_bot": null,
+    "info_user": "Random Settings League | Seed: https://ootr.fenhl.net/seed/OoT_DB44C_7OGFIP5D8S.zpf",
+    "team_race": false,
+    "entrants_count": 3,
+    "entrants_count_finished": 2,
+    "entrants_count_inactive": 1,
+    "entrants": [
+        {
+            "user": {
+                "id": "NY0OkW1Y2vWKalP1",
+                "full_name": "BrotinderDose",
+                "name": "BrotinderDose",
+                "discriminator": null,
+                "url": "/user/BrotinderDose",
+                "avatar": "https://racetime.gg/media/Waving112.png",
+                "pronouns": "he/him",
+                "flair": "supporter",
+                "twitch_name": "brotinderdose",
+                "twitch_display_name": "Brotinderdose",
+                "twitch_channel": "https://www.twitch.tv/brotinderdose",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT06H39M37.560137S",
+            "finished_at": "2022-02-20T16:48:16.629Z",
+            "place": 1,
+            "place_ordinal": "1st",
+            "score": 1537,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "bpNAaBvyanWJkg04",
+                "full_name": "ketchuptheduck#4785",
+                "name": "ketchuptheduck",
+                "discriminator": "4785",
+                "url": "/user/bpNAaBvyanWJkg04",
+                "avatar": "https://racetime.gg/media/ketchupProfile.jpg",
+                "pronouns": "they/them",
+                "flair": "",
+                "twitch_name": "ketchuptheduck",
+                "twitch_display_name": "KetchupTheDuck",
+                "twitch_channel": "https://www.twitch.tv/ketchuptheduck",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT08H49M37.790658S",
+            "finished_at": "2022-02-20T18:58:16.860Z",
+            "place": 2,
+            "place_ordinal": "2nd",
+            "score": null,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "Ek8wpok4lKW5KQyV",
+                "full_name": "Chuckles501#5294",
+                "name": "Chuckles501",
+                "discriminator": "5294",
+                "url": "/user/Ek8wpok4lKW5KQyV",
+                "avatar": null,
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "chuckles501",
+                "twitch_display_name": "Chuckles501",
+                "twitch_channel": "https://www.twitch.tv/chuckles501",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "dnf",
+                "verbose_value": "DNF",
+                "help_text": "Did not finish the race."
+            },
+            "finish_time": null,
+            "finished_at": null,
+            "place": null,
+            "place_ordinal": null,
+            "score": 1358,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        }
+    ],
+    "opened_at": "2022-02-20T09:27:16.549Z",
+    "start_delay": "P0DT00H00M15S",
+    "started_at": "2022-02-20T10:08:39.069Z",
+    "ended_at": "2022-02-20T18:58:16.931Z",
+    "cancelled_at": null,
+    "unlisted": false,
+    "time_limit": "P1DT00H00M00S",
+    "require_even_teams": false,
+    "streaming_required": true,
+    "auto_start": true,
+    "opened_by": {
+        "id": "Ek8wpok4lKW5KQyV",
+        "full_name": "Chuckles501#5294",
+        "name": "Chuckles501",
+        "discriminator": "5294",
+        "url": "/user/Ek8wpok4lKW5KQyV",
+        "avatar": null,
+        "pronouns": "he/him",
+        "flair": "",
+        "twitch_name": "chuckles501",
+        "twitch_display_name": "Chuckles501",
+        "twitch_channel": "https://www.twitch.tv/chuckles501",
+        "can_moderate": false
+    },
+    "monitors": [],
+    "recordable": true,
+    "recorded": false,
+    "recorded_by": null,
+    "allow_comments": true,
+    "hide_comments": false,
+    "allow_prerace_chat": true,
+    "allow_midrace_chat": true,
+    "allow_non_entrant_chat": true,
+    "chat_message_delay": "P0DT00H00M00S"
+}

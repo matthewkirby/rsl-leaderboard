@@ -17,15 +17,16 @@ def generate_html_leaderboard(leaderboard, unqualed):
         with open("html_templates/preamble.html") as fin:
             fp.write(fin.read())
 
-        # Write the hash block
-        fp.write("<div class=\"hashbox\">")
-        fp.write("<h3>Current Hash</h3><div>")
-        fp.write("<img src=\"\\assets\\hash\\map.png\" class=\"hash-image\">")
-        fp.write("<img src=\"\\assets\\hash\\map.png\" class=\"hash-image\">")
-        fp.write("<img src=\"\\assets\\hash\\none.png\" class=\"hash-image\">")
-        fp.write("<img src=\"\\assets\\hash\\none.png\" class=\"hash-image\">")
-        fp.write("<img src=\"\\assets\\hash\\none.png\" class=\"hash-image\">")
-        fp.write("</div></div></p>")
+        # Write the tournament information
+        # fp.write("<ol class=\"player-table\">")
+        # fp.write("<span class=\"table-header\"><h4>Season 4 Tournament Information</h4></span>")
+        # fp.write("<li class=\"table\"><span class=\"resource-element\">")
+        # fp.write("<a href=\"https://docs.google.com/spreadsheets/d/1IyXCCq0iowzCoUH7mB8oSduiQU6QqLY6LE1nJEKUOMs\" class=\"table\">Swiss Pairings</a>")
+        # fp.write("</span></li>")
+        # fp.write("<li class=\"table\"><span class=\"resource-element\">")
+        # fp.write("<a href=\"https://docs.google.com/spreadsheets/d/1LRJ3oo_2AWGq8KpNNclRXOq4OW8O7LrHra7uY7oQQlA/edit#gid=1920581233\" class=\"table\">Race Schedule</a>")
+        # fp.write("</span></li>")
+        # fp.write("</ol></p>")
 
         # Write the leaderboard
         fp.write("<ol class=\"player-table\">")

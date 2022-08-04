@@ -1,0 +1,418 @@
+{
+    "version": 67,
+    "name": "ootr/adequate-pierre-4972",
+    "slug": "adequate-pierre-4972",
+    "status": {
+        "value": "finished",
+        "verbose_value": "Finished",
+        "help_text": "This race has been completed"
+    },
+    "url": "/ootr/adequate-pierre-4972",
+    "data_url": "/ootr/adequate-pierre-4972/data",
+    "websocket_url": "/ws/race/adequate-pierre-4972",
+    "websocket_bot_url": "/ws/o/bot/adequate-pierre-4972",
+    "websocket_oauth_url": "/ws/o/race/adequate-pierre-4972",
+    "category": {
+        "name": "Ocarina of Time Randomizer",
+        "short_name": "OoTR",
+        "slug": "ootr",
+        "url": "/ootr",
+        "data_url": "/ootr/data",
+        "image": "https://racetime.gg/media/zootr.png"
+    },
+    "goal": {
+        "name": "Random settings league",
+        "custom": false
+    },
+    "info": "Random Settings League | Seed: https://ootr.fenhl.net/seed/OoT_7F2CD_HQP6O1K3CM.zpf",
+    "team_race": false,
+    "entrants_count": 10,
+    "entrants_count_finished": 6,
+    "entrants_count_inactive": 4,
+    "entrants": [
+        {
+            "user": {
+                "id": "NX5783JdQXWqlL0a",
+                "full_name": "Flouflouche#1934",
+                "name": "Flouflouche",
+                "discriminator": "1934",
+                "url": "/user/NX5783JdQXWqlL0a",
+                "avatar": "https://racetime.gg/media/Samus.png",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "flouflouche1994",
+                "twitch_display_name": "Flouflouche1994",
+                "twitch_channel": "https://www.twitch.tv/flouflouche1994",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT03H03M31.831871S",
+            "finished_at": "2021-12-26T22:59:41.885Z",
+            "place": 1,
+            "place_ordinal": "1st",
+            "score": 2670,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "NZ1KRBOg69B4qAyj",
+                "full_name": "Alf#5942",
+                "name": "Alf",
+                "discriminator": "5942",
+                "url": "/user/NZ1KRBOg69B4qAyj",
+                "avatar": "https://racetime.gg/media/jwkn49nv_400x400.jpg",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "alfakenyjuan",
+                "twitch_display_name": "Alfakenyjuan",
+                "twitch_channel": "https://www.twitch.tv/alfakenyjuan",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT03H59M13.289709S",
+            "finished_at": "2021-12-26T23:55:23.343Z",
+            "place": 2,
+            "place_ordinal": "2nd",
+            "score": 1866,
+            "score_change": null,
+            "comment": "Fuckin Child DMC again.",
+            "has_comment": true,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "change_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "AEk8wpok9GB5KQyV",
+                "full_name": "Hellknight86#4990",
+                "name": "Hellknight86",
+                "discriminator": "4990",
+                "url": "/user/AEk8wpok9GB5KQyV",
+                "avatar": null,
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "hellknight86",
+                "twitch_display_name": "Hellknight86",
+                "twitch_channel": "https://www.twitch.tv/hellknight86",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT04H12M14.233710S",
+            "finished_at": "2021-12-27T00:08:24.287Z",
+            "place": 3,
+            "place_ordinal": "3rd",
+            "score": 2087,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "dMqzQPW4jv31L2R5",
+                "full_name": "Marco#4636",
+                "name": "Marco",
+                "discriminator": "4636",
+                "url": "/user/dMqzQPW4jv31L2R5",
+                "avatar": null,
+                "pronouns": null,
+                "flair": "",
+                "twitch_name": "marco",
+                "twitch_display_name": "Marco",
+                "twitch_channel": "https://www.twitch.tv/marco",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT04H18M17.694239S",
+            "finished_at": "2021-12-27T00:14:27.747Z",
+            "place": 4,
+            "place_ordinal": "4th",
+            "score": 3095,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "XGzr7pBM9GBkqgyE",
+                "full_name": "DgBarca#0570",
+                "name": "DgBarca",
+                "discriminator": "0570",
+                "url": "/user/XGzr7pBM9GBkqgyE",
+                "avatar": "https://racetime.gg/media/1ca.png",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "dgbarca",
+                "twitch_display_name": "DgBarca",
+                "twitch_channel": "https://www.twitch.tv/dgbarca",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT04H28M28.481358S",
+            "finished_at": "2021-12-27T00:24:38.534Z",
+            "place": 5,
+            "place_ordinal": "5th",
+            "score": 2310,
+            "score_change": null,
+            "comment": "Flouflouche rolls worst RSL ever, asked to leave server",
+            "has_comment": true,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "change_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "JrM6PoY9dkoRdm5v",
+                "full_name": "Xuross#1161",
+                "name": "Xuross",
+                "discriminator": "1161",
+                "url": "/user/JrM6PoY9dkoRdm5v",
+                "avatar": null,
+                "pronouns": null,
+                "flair": "",
+                "twitch_name": "xurosss",
+                "twitch_display_name": "Xurosss",
+                "twitch_channel": "https://www.twitch.tv/xurosss",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT04H33M59.639386S",
+            "finished_at": "2021-12-27T00:30:09.692Z",
+            "place": 6,
+            "place_ordinal": "6th",
+            "score": 2055,
+            "score_change": null,
+            "comment": "first time I've done 10 big poes monkaS",
+            "has_comment": true,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "change_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "yDMLq1oZz0oOeQG8",
+                "full_name": "Oximan#8883",
+                "name": "Oximan",
+                "discriminator": "8883",
+                "url": "/user/yDMLq1oZz0oOeQG8",
+                "avatar": null,
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "oxidude",
+                "twitch_display_name": "OXIdude",
+                "twitch_channel": "https://www.twitch.tv/oxidude",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "dnf",
+                "verbose_value": "DNF",
+                "help_text": "Did not finish the race."
+            },
+            "finish_time": null,
+            "finished_at": null,
+            "place": null,
+            "place_ordinal": null,
+            "score": 2443,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "ZbpNAaBv40oJkg04",
+                "full_name": "Weasel2366#5808",
+                "name": "Weasel2366",
+                "discriminator": "5808",
+                "url": "/user/ZbpNAaBv40oJkg04",
+                "avatar": null,
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "weasel2366",
+                "twitch_display_name": "Weasel2366",
+                "twitch_channel": "https://www.twitch.tv/weasel2366",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "dnf",
+                "verbose_value": "DNF",
+                "help_text": "Did not finish the race."
+            },
+            "finish_time": null,
+            "finished_at": null,
+            "place": null,
+            "place_ordinal": null,
+            "score": 2132,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "b8GPMWwEqX31nEk0",
+                "full_name": "Rafa#9983",
+                "name": "Rafa",
+                "discriminator": "9983",
+                "url": "/user/b8GPMWwEqX31nEk0",
+                "avatar": "https://racetime.gg/media/Photo-de-profil-ConvertImage.png",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "rafa282000",
+                "twitch_display_name": "rafa282000",
+                "twitch_channel": "https://www.twitch.tv/rafa282000",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "dnf",
+                "verbose_value": "DNF",
+                "help_text": "Did not finish the race."
+            },
+            "finish_time": null,
+            "finished_at": null,
+            "place": null,
+            "place_ordinal": null,
+            "score": 1988,
+            "score_change": null,
+            "comment": "no thanks, don't want to do all of this LUL",
+            "has_comment": true,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "change_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "jQbq4dBp5j3vlrG0",
+                "full_name": "Ch0c0#3389",
+                "name": "Ch0c0",
+                "discriminator": "3389",
+                "url": "/user/jQbq4dBp5j3vlrG0",
+                "avatar": null,
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "ch0c0",
+                "twitch_display_name": "Ch0c0",
+                "twitch_channel": "https://www.twitch.tv/ch0c0",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "dnf",
+                "verbose_value": "DNF",
+                "help_text": "Did not finish the race."
+            },
+            "finish_time": null,
+            "finished_at": null,
+            "place": null,
+            "place_ordinal": null,
+            "score": 1592,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        }
+    ],
+    "opened_at": "2021-12-26T19:10:56.404Z",
+    "start_delay": "P0DT00H00M15S",
+    "started_at": "2021-12-26T19:56:10.053Z",
+    "ended_at": "2021-12-27T00:30:09.816Z",
+    "cancelled_at": null,
+    "unlisted": false,
+    "time_limit": "P1DT00H00M00S",
+    "require_even_teams": false,
+    "streaming_required": true,
+    "auto_start": true,
+    "opened_by": {
+        "id": "NX5783JdQXWqlL0a",
+        "full_name": "Flouflouche#1934",
+        "name": "Flouflouche",
+        "discriminator": "1934",
+        "url": "/user/NX5783JdQXWqlL0a",
+        "avatar": "https://racetime.gg/media/Samus.png",
+        "pronouns": "he/him",
+        "flair": "",
+        "twitch_name": "flouflouche1994",
+        "twitch_display_name": "Flouflouche1994",
+        "twitch_channel": "https://www.twitch.tv/flouflouche1994",
+        "can_moderate": false
+    },
+    "monitors": [],
+    "recordable": true,
+    "recorded": false,
+    "recorded_by": null,
+    "allow_comments": true,
+    "hide_comments": true,
+    "allow_prerace_chat": true,
+    "allow_midrace_chat": true,
+    "allow_non_entrant_chat": true,
+    "chat_message_delay": "P0DT00H00M00S"
+}

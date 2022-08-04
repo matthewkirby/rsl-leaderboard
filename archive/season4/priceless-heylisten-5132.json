@@ -1,0 +1,208 @@
+{
+    "version": 48,
+    "name": "ootr/priceless-heylisten-5132",
+    "slug": "priceless-heylisten-5132",
+    "status": {
+        "value": "finished",
+        "verbose_value": "Finished",
+        "help_text": "This race has been completed"
+    },
+    "url": "/ootr/priceless-heylisten-5132",
+    "data_url": "/ootr/priceless-heylisten-5132/data",
+    "websocket_url": "/ws/race/priceless-heylisten-5132",
+    "websocket_bot_url": "/ws/o/bot/priceless-heylisten-5132",
+    "websocket_oauth_url": "/ws/o/race/priceless-heylisten-5132",
+    "category": {
+        "name": "Ocarina of Time Randomizer",
+        "short_name": "OoTR",
+        "slug": "ootr",
+        "url": "/ootr",
+        "data_url": "/ootr/data",
+        "image": "https://racetime.gg/media/zootr.png"
+    },
+    "goal": {
+        "name": "Random settings league",
+        "custom": false
+    },
+    "info": "Random Settings League | Seed: https://ootr.fenhl.net/seed/OoT_BCA93_GVK8LQYWIX.zpf",
+    "team_race": false,
+    "entrants_count": 4,
+    "entrants_count_finished": 3,
+    "entrants_count_inactive": 1,
+    "entrants": [
+        {
+            "user": {
+                "id": "R8QGZrB2k03Ngk4V",
+                "full_name": "Challensois_#7759",
+                "name": "Challensois_",
+                "discriminator": "7759",
+                "url": "/user/R8QGZrB2k03Ngk4V",
+                "avatar": "https://racetime.gg/media/Malon_copy.png",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "challensois_",
+                "twitch_display_name": "Challensois_",
+                "twitch_channel": "https://www.twitch.tv/challensois_",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT06H48M13.409893S",
+            "finished_at": "2021-12-24T16:36:22.413Z",
+            "place": 1,
+            "place_ordinal": "1st",
+            "score": 2066,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "RbOXG3y8nYBZVKq1",
+                "full_name": "ksinjah#5722",
+                "name": "ksinjah",
+                "discriminator": "5722",
+                "url": "/user/RbOXG3y8nYBZVKq1",
+                "avatar": null,
+                "pronouns": "she/her",
+                "flair": "",
+                "twitch_name": "ksinjah",
+                "twitch_display_name": "ksinjah",
+                "twitch_channel": "https://www.twitch.tv/ksinjah",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT07H36M11.630375S",
+            "finished_at": "2021-12-24T17:24:20.633Z",
+            "place": 2,
+            "place_ordinal": "2nd",
+            "score": 1208,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "raP6yoaAQwolV4zN",
+                "full_name": "IOND#0303",
+                "name": "IOND",
+                "discriminator": "0303",
+                "url": "/user/raP6yoaAQwolV4zN",
+                "avatar": "https://racetime.gg/media/Profil-iond.jpg",
+                "pronouns": null,
+                "flair": "",
+                "twitch_name": "i0nd",
+                "twitch_display_name": "I0ND",
+                "twitch_channel": "https://www.twitch.tv/i0nd",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT10H03M52.650422S",
+            "finished_at": "2021-12-24T19:52:01.653Z",
+            "place": 3,
+            "place_ordinal": "3rd",
+            "score": 536,
+            "score_change": null,
+            "comment": "Nice day ><",
+            "has_comment": true,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "change_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "zM65aWXkR5o1y8q0",
+                "full_name": "TeaGrenadier#7927",
+                "name": "TeaGrenadier",
+                "discriminator": "7927",
+                "url": "/user/zM65aWXkR5o1y8q0",
+                "avatar": null,
+                "pronouns": null,
+                "flair": "",
+                "twitch_name": "teagrenadier",
+                "twitch_display_name": "TeaGrenadier",
+                "twitch_channel": "https://www.twitch.tv/teagrenadier",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "dnf",
+                "verbose_value": "DNF",
+                "help_text": "Did not finish the race."
+            },
+            "finish_time": null,
+            "finished_at": null,
+            "place": null,
+            "place_ordinal": null,
+            "score": 1171,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        }
+    ],
+    "opened_at": "2021-12-24T09:15:11.609Z",
+    "start_delay": "P0DT00H00M15S",
+    "started_at": "2021-12-24T09:48:09.003Z",
+    "ended_at": "2021-12-24T19:52:01.865Z",
+    "cancelled_at": null,
+    "unlisted": false,
+    "time_limit": "P1DT00H00M00S",
+    "require_even_teams": false,
+    "streaming_required": true,
+    "auto_start": true,
+    "opened_by": {
+        "id": "zM65aWXkR5o1y8q0",
+        "full_name": "TeaGrenadier#7927",
+        "name": "TeaGrenadier",
+        "discriminator": "7927",
+        "url": "/user/zM65aWXkR5o1y8q0",
+        "avatar": null,
+        "pronouns": null,
+        "flair": "",
+        "twitch_name": "teagrenadier",
+        "twitch_display_name": "TeaGrenadier",
+        "twitch_channel": "https://www.twitch.tv/teagrenadier",
+        "can_moderate": false
+    },
+    "monitors": [],
+    "recordable": true,
+    "recorded": false,
+    "recorded_by": null,
+    "allow_comments": true,
+    "hide_comments": false,
+    "allow_prerace_chat": true,
+    "allow_midrace_chat": true,
+    "allow_non_entrant_chat": true,
+    "chat_message_delay": "P0DT00H00M00S"
+}

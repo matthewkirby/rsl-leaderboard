@@ -1,0 +1,208 @@
+{
+    "version": 33,
+    "name": "ootr/odd-mamamu-7625",
+    "slug": "odd-mamamu-7625",
+    "status": {
+        "value": "finished",
+        "verbose_value": "Finished",
+        "help_text": "This race has been completed"
+    },
+    "url": "/ootr/odd-mamamu-7625",
+    "data_url": "/ootr/odd-mamamu-7625/data",
+    "websocket_url": "/ws/race/odd-mamamu-7625",
+    "websocket_bot_url": "/ws/o/bot/odd-mamamu-7625",
+    "websocket_oauth_url": "/ws/o/race/odd-mamamu-7625",
+    "category": {
+        "name": "Ocarina of Time Randomizer",
+        "short_name": "OoTR",
+        "slug": "ootr",
+        "url": "/ootr",
+        "data_url": "/ootr/data",
+        "image": "https://racetime.gg/media/zootr.png"
+    },
+    "goal": {
+        "name": "Random settings league",
+        "custom": false
+    },
+    "info": "Random Settings League | Seed: https://ootr.fenhl.net/seed/OoT_3D160_91V1R2WM0Z.zpf",
+    "team_race": false,
+    "entrants_count": 4,
+    "entrants_count_finished": 3,
+    "entrants_count_inactive": 1,
+    "entrants": [
+        {
+            "user": {
+                "id": "yDMLq1oZL4BOeQG8",
+                "full_name": "RyuuKane#3246",
+                "name": "RyuuKane",
+                "discriminator": "3246",
+                "url": "/user/yDMLq1oZL4BOeQG8",
+                "avatar": null,
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "ryuukane",
+                "twitch_display_name": "RyuuKane",
+                "twitch_channel": "https://www.twitch.tv/ryuukane",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT03H16M58.499850S",
+            "finished_at": "2022-01-03T17:24:35.603Z",
+            "place": 1,
+            "place_ordinal": "1st",
+            "score": 2668,
+            "score_change": null,
+            "comment": "OkaygeBusiness",
+            "has_comment": true,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "change_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "NZ1KRBOg69B4qAyj",
+                "full_name": "Alf#5942",
+                "name": "Alf",
+                "discriminator": "5942",
+                "url": "/user/NZ1KRBOg69B4qAyj",
+                "avatar": "https://racetime.gg/media/jwkn49nv_400x400.jpg",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "alfakenyjuan",
+                "twitch_display_name": "Alfakenyjuan",
+                "twitch_channel": "https://www.twitch.tv/alfakenyjuan",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT04H09M47.746300S",
+            "finished_at": "2022-01-03T18:17:24.850Z",
+            "place": 2,
+            "place_ordinal": "2nd",
+            "score": 1990,
+            "score_change": null,
+            "comment": "Just buy chus from carpet salesman. Lawl",
+            "has_comment": true,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "change_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "dMqzQPW4v31L2R5E",
+                "full_name": "Hamsda#9463",
+                "name": "Hamsda",
+                "discriminator": "9463",
+                "url": "/user/dMqzQPW4v31L2R5E",
+                "avatar": "https://racetime.gg/media/hamster_lift.jpg",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "hamsda",
+                "twitch_display_name": "Hamsda",
+                "twitch_channel": "https://www.twitch.tv/hamsda",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT04H24M45.186770S",
+            "finished_at": "2022-01-03T18:32:22.290Z",
+            "place": 3,
+            "place_ordinal": "3rd",
+            "score": 2851,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "NY0OkW1Y2vWKalP1",
+                "full_name": "BrotinderDose",
+                "name": "BrotinderDose",
+                "discriminator": null,
+                "url": "/user/BrotinderDose",
+                "avatar": "https://racetime.gg/media/Waving112.png",
+                "pronouns": "he/him",
+                "flair": "supporter",
+                "twitch_name": "brotinderdose",
+                "twitch_display_name": "Brotinderdose",
+                "twitch_channel": "https://www.twitch.tv/brotinderdose",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "dnf",
+                "verbose_value": "DNF",
+                "help_text": "Did not finish the race."
+            },
+            "finish_time": null,
+            "finished_at": null,
+            "place": null,
+            "place_ordinal": null,
+            "score": 1551,
+            "score_change": null,
+            "comment": "misstracked a check no ocarina for me today Pepege",
+            "has_comment": true,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "change_comment"
+            ]
+        }
+    ],
+    "opened_at": "2022-01-03T13:39:55.721Z",
+    "start_delay": "P0DT00H00M15S",
+    "started_at": "2022-01-03T14:07:37.104Z",
+    "ended_at": "2022-01-03T18:32:22.373Z",
+    "cancelled_at": null,
+    "unlisted": false,
+    "time_limit": "P1DT00H00M00S",
+    "require_even_teams": false,
+    "streaming_required": true,
+    "auto_start": true,
+    "opened_by": {
+        "id": "NY0OkW1Y2vWKalP1",
+        "full_name": "BrotinderDose",
+        "name": "BrotinderDose",
+        "discriminator": null,
+        "url": "/user/BrotinderDose",
+        "avatar": "https://racetime.gg/media/Waving112.png",
+        "pronouns": "he/him",
+        "flair": "supporter",
+        "twitch_name": "brotinderdose",
+        "twitch_display_name": "Brotinderdose",
+        "twitch_channel": "https://www.twitch.tv/brotinderdose",
+        "can_moderate": false
+    },
+    "monitors": [],
+    "recordable": true,
+    "recorded": false,
+    "recorded_by": null,
+    "allow_comments": true,
+    "hide_comments": true,
+    "allow_prerace_chat": true,
+    "allow_midrace_chat": true,
+    "allow_non_entrant_chat": true,
+    "chat_message_delay": "P0DT00H00M00S"
+}

@@ -1,0 +1,138 @@
+{
+    "version": 17,
+    "name": "ootr/hungry-blametrez-2895",
+    "slug": "hungry-blametrez-2895",
+    "status": {
+        "value": "finished",
+        "verbose_value": "Finished",
+        "help_text": "This race has been completed"
+    },
+    "url": "/ootr/hungry-blametrez-2895",
+    "data_url": "/ootr/hungry-blametrez-2895/data",
+    "websocket_url": "/ws/race/hungry-blametrez-2895",
+    "websocket_bot_url": "/ws/o/bot/hungry-blametrez-2895",
+    "websocket_oauth_url": "/ws/o/race/hungry-blametrez-2895",
+    "category": {
+        "name": "Ocarina of Time Randomizer",
+        "short_name": "OoTR",
+        "slug": "ootr",
+        "url": "/ootr",
+        "data_url": "/ootr/data",
+        "image": "https://racetime.gg/media/zootr.png"
+    },
+    "goal": {
+        "name": "Random settings league",
+        "custom": false
+    },
+    "info": "Random Settings League | Seed: https://ootr.fenhl.net/seed/OoT_AC702_UW6JZ9DL9H.zpf",
+    "team_race": false,
+    "entrants_count": 2,
+    "entrants_count_finished": 2,
+    "entrants_count_inactive": 0,
+    "entrants": [
+        {
+            "user": {
+                "id": "R8QGZrB2k03Ngk4V",
+                "full_name": "Challensois_#7759",
+                "name": "Challensois_",
+                "discriminator": "7759",
+                "url": "/user/R8QGZrB2k03Ngk4V",
+                "avatar": "https://racetime.gg/media/Malon_copy.png",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "challensois_",
+                "twitch_display_name": "Challensois_",
+                "twitch_channel": "https://www.twitch.tv/challensois_",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT04H46M14.336032S",
+            "finished_at": "2021-11-24T15:54:33.997Z",
+            "place": 1,
+            "place_ordinal": "1st",
+            "score": 1994,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "NY0OkW1Y2vWKalP1",
+                "full_name": "BrotinderDose",
+                "name": "BrotinderDose",
+                "discriminator": null,
+                "url": "/user/BrotinderDose",
+                "avatar": "https://racetime.gg/media/Waving112.png",
+                "pronouns": "he/him",
+                "flair": "supporter",
+                "twitch_name": "brotinderdose",
+                "twitch_display_name": "Brotinderdose",
+                "twitch_channel": "https://www.twitch.tv/brotinderdose",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT04H49M51.373687S",
+            "finished_at": "2021-11-24T15:58:11.034Z",
+            "place": 2,
+            "place_ordinal": "2nd",
+            "score": 1622,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        }
+    ],
+    "opened_at": "2021-11-24T10:48:08.551Z",
+    "start_delay": "P0DT00H00M15S",
+    "started_at": "2021-11-24T11:08:19.660Z",
+    "ended_at": "2021-11-24T15:58:11.105Z",
+    "cancelled_at": null,
+    "unlisted": false,
+    "time_limit": "P1DT00H00M00S",
+    "require_even_teams": false,
+    "streaming_required": true,
+    "auto_start": true,
+    "opened_by": {
+        "id": "NY0OkW1Y2vWKalP1",
+        "full_name": "BrotinderDose",
+        "name": "BrotinderDose",
+        "discriminator": null,
+        "url": "/user/BrotinderDose",
+        "avatar": "https://racetime.gg/media/Waving112.png",
+        "pronouns": "he/him",
+        "flair": "supporter",
+        "twitch_name": "brotinderdose",
+        "twitch_display_name": "Brotinderdose",
+        "twitch_channel": "https://www.twitch.tv/brotinderdose",
+        "can_moderate": false
+    },
+    "monitors": [],
+    "recordable": true,
+    "recorded": false,
+    "recorded_by": null,
+    "allow_comments": true,
+    "hide_comments": true,
+    "allow_prerace_chat": true,
+    "allow_midrace_chat": true,
+    "allow_non_entrant_chat": true,
+    "chat_message_delay": "P0DT00H00M00S"
+}

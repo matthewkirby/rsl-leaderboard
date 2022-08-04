@@ -1,0 +1,138 @@
+{
+    "version": 16,
+    "name": "ootr/adequate-pierre-6389",
+    "slug": "adequate-pierre-6389",
+    "status": {
+        "value": "finished",
+        "verbose_value": "Finished",
+        "help_text": "This race has been completed"
+    },
+    "url": "/ootr/adequate-pierre-6389",
+    "data_url": "/ootr/adequate-pierre-6389/data",
+    "websocket_url": "/ws/race/adequate-pierre-6389",
+    "websocket_bot_url": "/ws/o/bot/adequate-pierre-6389",
+    "websocket_oauth_url": "/ws/o/race/adequate-pierre-6389",
+    "category": {
+        "name": "Ocarina of Time Randomizer",
+        "short_name": "OoTR",
+        "slug": "ootr",
+        "url": "/ootr",
+        "data_url": "/ootr/data",
+        "image": "https://racetime.gg/media/zootr.png"
+    },
+    "goal": {
+        "name": "Random settings league",
+        "custom": false
+    },
+    "info": "Random Settings League | Seed: https://ootr.fenhl.net/seed/OoT_E97C3_J4ZTD7M6U4.zpf",
+    "team_race": false,
+    "entrants_count": 2,
+    "entrants_count_finished": 1,
+    "entrants_count_inactive": 1,
+    "entrants": [
+        {
+            "user": {
+                "id": "dMqzQPW4v31L2R5E",
+                "full_name": "Hamsda#9463",
+                "name": "Hamsda",
+                "discriminator": "9463",
+                "url": "/user/dMqzQPW4v31L2R5E",
+                "avatar": "https://racetime.gg/media/hamster_lift.jpg",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "hamsda",
+                "twitch_display_name": "Hamsda",
+                "twitch_channel": "https://www.twitch.tv/hamsda",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT03H39M22.487405S",
+            "finished_at": "2021-12-28T12:42:12.410Z",
+            "place": 1,
+            "place_ordinal": "1st",
+            "score": 2753,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "NY0OkW1Y2vWKalP1",
+                "full_name": "BrotinderDose",
+                "name": "BrotinderDose",
+                "discriminator": null,
+                "url": "/user/BrotinderDose",
+                "avatar": "https://racetime.gg/media/Waving112.png",
+                "pronouns": "he/him",
+                "flair": "supporter",
+                "twitch_name": "brotinderdose",
+                "twitch_display_name": "Brotinderdose",
+                "twitch_channel": "https://www.twitch.tv/brotinderdose",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "dnf",
+                "verbose_value": "DNF",
+                "help_text": "Did not finish the race."
+            },
+            "finish_time": null,
+            "finished_at": null,
+            "place": null,
+            "place_ordinal": null,
+            "score": 1531,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        }
+    ],
+    "opened_at": "2021-12-28T08:52:10.114Z",
+    "start_delay": "P0DT00H00M15S",
+    "started_at": "2021-12-28T09:02:49.923Z",
+    "ended_at": "2021-12-28T12:42:12.490Z",
+    "cancelled_at": null,
+    "unlisted": false,
+    "time_limit": "P1DT00H00M00S",
+    "require_even_teams": false,
+    "streaming_required": true,
+    "auto_start": true,
+    "opened_by": {
+        "id": "dMqzQPW4v31L2R5E",
+        "full_name": "Hamsda#9463",
+        "name": "Hamsda",
+        "discriminator": "9463",
+        "url": "/user/dMqzQPW4v31L2R5E",
+        "avatar": "https://racetime.gg/media/hamster_lift.jpg",
+        "pronouns": "he/him",
+        "flair": "",
+        "twitch_name": "hamsda",
+        "twitch_display_name": "Hamsda",
+        "twitch_channel": "https://www.twitch.tv/hamsda",
+        "can_moderate": false
+    },
+    "monitors": [],
+    "recordable": true,
+    "recorded": false,
+    "recorded_by": null,
+    "allow_comments": true,
+    "hide_comments": false,
+    "allow_prerace_chat": true,
+    "allow_midrace_chat": true,
+    "allow_non_entrant_chat": true,
+    "chat_message_delay": "P0DT00H00M00S"
+}

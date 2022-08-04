@@ -1,0 +1,208 @@
+{
+    "version": 30,
+    "name": "ootr/funky-shikashi-1098",
+    "slug": "funky-shikashi-1098",
+    "status": {
+        "value": "finished",
+        "verbose_value": "Finished",
+        "help_text": "This race has been completed"
+    },
+    "url": "/ootr/funky-shikashi-1098",
+    "data_url": "/ootr/funky-shikashi-1098/data",
+    "websocket_url": "/ws/race/funky-shikashi-1098",
+    "websocket_bot_url": "/ws/o/bot/funky-shikashi-1098",
+    "websocket_oauth_url": "/ws/o/race/funky-shikashi-1098",
+    "category": {
+        "name": "Ocarina of Time Randomizer",
+        "short_name": "OoTR",
+        "slug": "ootr",
+        "url": "/ootr",
+        "data_url": "/ootr/data",
+        "image": "https://racetime.gg/media/zootr.png"
+    },
+    "goal": {
+        "name": "Random settings league",
+        "custom": false
+    },
+    "info": "Random Settings League | Seed: https://ootr.fenhl.net/seed/OoT_3DB22_6LF9VCLSXZ.zpf",
+    "team_race": false,
+    "entrants_count": 4,
+    "entrants_count_finished": 4,
+    "entrants_count_inactive": 0,
+    "entrants": [
+        {
+            "user": {
+                "id": "q5rNGD3DKlB9blOy",
+                "full_name": "WTHH#3353",
+                "name": "WTHH",
+                "discriminator": "3353",
+                "url": "/user/q5rNGD3DKlB9blOy",
+                "avatar": null,
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "whatthehellshappened",
+                "twitch_display_name": "Whatthehellshappened",
+                "twitch_channel": "https://www.twitch.tv/whatthehellshappened",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT03H25M51.219689S",
+            "finished_at": "2021-12-27T19:27:31.392Z",
+            "place": 1,
+            "place_ordinal": "1st",
+            "score": 2679,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "NJrM6PoYZ5WRdm5v",
+                "full_name": "Riley#6863",
+                "name": "Riley",
+                "discriminator": "6863",
+                "url": "/user/NJrM6PoYZ5WRdm5v",
+                "avatar": "https://racetime.gg/media/Kiria.jpg",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "riley2w69t",
+                "twitch_display_name": "Riley2w69t",
+                "twitch_channel": "https://www.twitch.tv/riley2w69t",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT03H29M36.125617S",
+            "finished_at": "2021-12-27T19:31:16.298Z",
+            "place": 2,
+            "place_ordinal": "2nd",
+            "score": 2361,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "kzM65aWXldW1y8q0",
+                "full_name": "mracsys#1993",
+                "name": "mracsys",
+                "discriminator": "1993",
+                "url": "/user/kzM65aWXldW1y8q0",
+                "avatar": "https://racetime.gg/media/riven_oculus.jpg",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "mracsys",
+                "twitch_display_name": "mracsys",
+                "twitch_channel": "https://www.twitch.tv/mracsys",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT04H18M44.991236S",
+            "finished_at": "2021-12-27T20:20:25.164Z",
+            "place": 3,
+            "place_ordinal": "3rd",
+            "score": 2342,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "RbOXG3y8nYBZVKq1",
+                "full_name": "ksinjah#5722",
+                "name": "ksinjah",
+                "discriminator": "5722",
+                "url": "/user/RbOXG3y8nYBZVKq1",
+                "avatar": null,
+                "pronouns": "she/her",
+                "flair": "",
+                "twitch_name": "ksinjah",
+                "twitch_display_name": "ksinjah",
+                "twitch_channel": "https://www.twitch.tv/ksinjah",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT05H16M12.585748S",
+            "finished_at": "2021-12-27T21:17:52.758Z",
+            "place": 4,
+            "place_ordinal": "4th",
+            "score": 1208,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        }
+    ],
+    "opened_at": "2021-12-27T15:38:20.769Z",
+    "start_delay": "P0DT00H00M15S",
+    "started_at": "2021-12-27T16:01:40.172Z",
+    "ended_at": "2021-12-27T21:17:52.848Z",
+    "cancelled_at": null,
+    "unlisted": false,
+    "time_limit": "P1DT00H00M00S",
+    "require_even_teams": false,
+    "streaming_required": true,
+    "auto_start": true,
+    "opened_by": {
+        "id": "q5rNGD3DKlB9blOy",
+        "full_name": "WTHH#3353",
+        "name": "WTHH",
+        "discriminator": "3353",
+        "url": "/user/q5rNGD3DKlB9blOy",
+        "avatar": null,
+        "pronouns": "he/him",
+        "flair": "",
+        "twitch_name": "whatthehellshappened",
+        "twitch_display_name": "Whatthehellshappened",
+        "twitch_channel": "https://www.twitch.tv/whatthehellshappened",
+        "can_moderate": false
+    },
+    "monitors": [],
+    "recordable": true,
+    "recorded": false,
+    "recorded_by": null,
+    "allow_comments": true,
+    "hide_comments": false,
+    "allow_prerace_chat": true,
+    "allow_midrace_chat": true,
+    "allow_non_entrant_chat": true,
+    "chat_message_delay": "P0DT00H00M00S"
+}

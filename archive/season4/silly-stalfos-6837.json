@@ -1,0 +1,243 @@
+{
+    "version": 35,
+    "name": "ootr/silly-stalfos-6837",
+    "slug": "silly-stalfos-6837",
+    "status": {
+        "value": "finished",
+        "verbose_value": "Finished",
+        "help_text": "This race has been completed"
+    },
+    "url": "/ootr/silly-stalfos-6837",
+    "data_url": "/ootr/silly-stalfos-6837/data",
+    "websocket_url": "/ws/race/silly-stalfos-6837",
+    "websocket_bot_url": "/ws/o/bot/silly-stalfos-6837",
+    "websocket_oauth_url": "/ws/o/race/silly-stalfos-6837",
+    "category": {
+        "name": "Ocarina of Time Randomizer",
+        "short_name": "OoTR",
+        "slug": "ootr",
+        "url": "/ootr",
+        "data_url": "/ootr/data",
+        "image": "https://racetime.gg/media/zootr.png"
+    },
+    "goal": {
+        "name": "Random settings league",
+        "custom": false
+    },
+    "info": "Random Settings League | Seed: https://ootr.fenhl.net/seed/OoT_EFBA5_68QP8IVL3J.zpf",
+    "team_race": false,
+    "entrants_count": 5,
+    "entrants_count_finished": 3,
+    "entrants_count_inactive": 2,
+    "entrants": [
+        {
+            "user": {
+                "id": "pRbOXG3yvOoZVKq1",
+                "full_name": "Kirox#6033",
+                "name": "Kirox",
+                "discriminator": "6033",
+                "url": "/user/pRbOXG3yvOoZVKq1",
+                "avatar": "https://racetime.gg/media/2625.jpg",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "gskirox",
+                "twitch_display_name": "GSKirox",
+                "twitch_channel": "https://www.twitch.tv/gskirox",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT03H57M36.530118S",
+            "finished_at": "2021-11-11T19:06:36.436Z",
+            "place": 1,
+            "place_ordinal": "1st",
+            "score": 2864,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "AEk8wpok9GB5KQyV",
+                "full_name": "Hellknight86#4990",
+                "name": "Hellknight86",
+                "discriminator": "4990",
+                "url": "/user/AEk8wpok9GB5KQyV",
+                "avatar": null,
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "hellknight86",
+                "twitch_display_name": "Hellknight86",
+                "twitch_channel": "https://www.twitch.tv/hellknight86",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT04H38M35.077791S",
+            "finished_at": "2021-11-11T19:47:34.984Z",
+            "place": 2,
+            "place_ordinal": "2nd",
+            "score": 2066,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "Qbq4dBpywJ3vlrG0",
+                "full_name": "Synii#6419",
+                "name": "Synii",
+                "discriminator": "6419",
+                "url": "/user/Qbq4dBpywJ3vlrG0",
+                "avatar": null,
+                "pronouns": null,
+                "flair": "",
+                "twitch_name": "synii1",
+                "twitch_display_name": "Synii1",
+                "twitch_channel": "https://www.twitch.tv/synii1",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT04H45M15.184525S",
+            "finished_at": "2021-11-11T19:54:15.091Z",
+            "place": 3,
+            "place_ordinal": "3rd",
+            "score": 1419,
+            "score_change": null,
+            "comment": "Lost a bit of time due to not being familiar with MQ ganons. Pretty fast for OW shuffle All dungeons 56 skulls needed seed",
+            "has_comment": true,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "change_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "NY0OkW1Y2vWKalP1",
+                "full_name": "BrotinderDose",
+                "name": "BrotinderDose",
+                "discriminator": null,
+                "url": "/user/BrotinderDose",
+                "avatar": "https://racetime.gg/media/Waving112.png",
+                "pronouns": "he/him",
+                "flair": "supporter",
+                "twitch_name": "brotinderdose",
+                "twitch_display_name": "Brotinderdose",
+                "twitch_channel": "https://www.twitch.tv/brotinderdose",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "dnf",
+                "verbose_value": "DNF",
+                "help_text": "Did not finish the race."
+            },
+            "finish_time": null,
+            "finished_at": null,
+            "place": null,
+            "place_ordinal": null,
+            "score": 1706,
+            "score_change": null,
+            "comment": "Bedge",
+            "has_comment": true,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "change_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "PyZ2Dv30wyBewXma",
+                "full_name": "Dragon#4967",
+                "name": "Dragon",
+                "discriminator": "4967",
+                "url": "/user/PyZ2Dv30wyBewXma",
+                "avatar": "https://racetime.gg/media/shopping.jpeg",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "joshuak22",
+                "twitch_display_name": "joshuak22",
+                "twitch_channel": "https://www.twitch.tv/joshuak22",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "dnf",
+                "verbose_value": "DNF",
+                "help_text": "Did not finish the race."
+            },
+            "finish_time": null,
+            "finished_at": null,
+            "place": null,
+            "place_ordinal": null,
+            "score": 1303,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        }
+    ],
+    "opened_at": "2021-11-11T14:24:31.281Z",
+    "start_delay": "P0DT00H00M15S",
+    "started_at": "2021-11-11T15:08:59.906Z",
+    "ended_at": "2021-11-11T19:54:15.224Z",
+    "cancelled_at": null,
+    "unlisted": false,
+    "time_limit": "P1DT00H00M00S",
+    "require_even_teams": false,
+    "streaming_required": true,
+    "auto_start": true,
+    "opened_by": {
+        "id": "NY0OkW1Y2vWKalP1",
+        "full_name": "BrotinderDose",
+        "name": "BrotinderDose",
+        "discriminator": null,
+        "url": "/user/BrotinderDose",
+        "avatar": "https://racetime.gg/media/Waving112.png",
+        "pronouns": "he/him",
+        "flair": "supporter",
+        "twitch_name": "brotinderdose",
+        "twitch_display_name": "Brotinderdose",
+        "twitch_channel": "https://www.twitch.tv/brotinderdose",
+        "can_moderate": false
+    },
+    "monitors": [],
+    "recordable": true,
+    "recorded": false,
+    "recorded_by": null,
+    "allow_comments": true,
+    "hide_comments": false,
+    "allow_prerace_chat": true,
+    "allow_midrace_chat": true,
+    "allow_non_entrant_chat": true,
+    "chat_message_delay": "P0DT00H00M00S"
+}

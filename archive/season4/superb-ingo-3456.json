@@ -1,0 +1,173 @@
+{
+    "version": 24,
+    "name": "ootr/superb-ingo-3456",
+    "slug": "superb-ingo-3456",
+    "status": {
+        "value": "finished",
+        "verbose_value": "Finished",
+        "help_text": "This race has been completed"
+    },
+    "url": "/ootr/superb-ingo-3456",
+    "data_url": "/ootr/superb-ingo-3456/data",
+    "websocket_url": "/ws/race/superb-ingo-3456",
+    "websocket_bot_url": "/ws/o/bot/superb-ingo-3456",
+    "websocket_oauth_url": "/ws/o/race/superb-ingo-3456",
+    "category": {
+        "name": "Ocarina of Time Randomizer",
+        "short_name": "OoTR",
+        "slug": "ootr",
+        "url": "/ootr",
+        "data_url": "/ootr/data",
+        "image": "https://racetime.gg/media/zootr.png"
+    },
+    "goal": {
+        "name": "Random settings league",
+        "custom": false
+    },
+    "info": "Random Settings League | Seed: https://ootr.fenhl.net/seed/OoT_4D800_DG25TXH3XD.zpf",
+    "team_race": false,
+    "entrants_count": 3,
+    "entrants_count_finished": 3,
+    "entrants_count_inactive": 0,
+    "entrants": [
+        {
+            "user": {
+                "id": "dMqzQPW4v31L2R5E",
+                "full_name": "Hamsda#9463",
+                "name": "Hamsda",
+                "discriminator": "9463",
+                "url": "/user/dMqzQPW4v31L2R5E",
+                "avatar": "https://racetime.gg/media/hamster_lift.jpg",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "hamsda",
+                "twitch_display_name": "Hamsda",
+                "twitch_channel": "https://www.twitch.tv/hamsda",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT02H47M22.714715S",
+            "finished_at": "2021-11-07T14:22:29.826Z",
+            "place": 1,
+            "place_ordinal": "1st",
+            "score": 2810,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "NY0OkW1Y2vWKalP1",
+                "full_name": "BrotinderDose",
+                "name": "BrotinderDose",
+                "discriminator": null,
+                "url": "/user/BrotinderDose",
+                "avatar": "https://racetime.gg/media/Waving112.png",
+                "pronouns": "he/him",
+                "flair": "supporter",
+                "twitch_name": "brotinderdose",
+                "twitch_display_name": "Brotinderdose",
+                "twitch_channel": "https://www.twitch.tv/brotinderdose",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT03H01M27.913932S",
+            "finished_at": "2021-11-07T14:36:35.025Z",
+            "place": 2,
+            "place_ordinal": "2nd",
+            "score": 1648,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "pRbOXG3yvOoZVKq1",
+                "full_name": "Kirox#6033",
+                "name": "Kirox",
+                "discriminator": "6033",
+                "url": "/user/pRbOXG3yvOoZVKq1",
+                "avatar": "https://racetime.gg/media/2625.jpg",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "gskirox",
+                "twitch_display_name": "GSKirox",
+                "twitch_channel": "https://www.twitch.tv/gskirox",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT03H38M03.772789S",
+            "finished_at": "2021-11-07T15:13:10.884Z",
+            "place": 3,
+            "place_ordinal": "3rd",
+            "score": 2886,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        }
+    ],
+    "opened_at": "2021-11-07T11:12:35.051Z",
+    "start_delay": "P0DT00H00M15S",
+    "started_at": "2021-11-07T11:35:07.111Z",
+    "ended_at": "2021-11-07T15:13:10.966Z",
+    "cancelled_at": null,
+    "unlisted": false,
+    "time_limit": "P1DT00H00M00S",
+    "require_even_teams": false,
+    "streaming_required": true,
+    "auto_start": true,
+    "opened_by": {
+        "id": "NY0OkW1Y2vWKalP1",
+        "full_name": "BrotinderDose",
+        "name": "BrotinderDose",
+        "discriminator": null,
+        "url": "/user/BrotinderDose",
+        "avatar": "https://racetime.gg/media/Waving112.png",
+        "pronouns": "he/him",
+        "flair": "supporter",
+        "twitch_name": "brotinderdose",
+        "twitch_display_name": "Brotinderdose",
+        "twitch_channel": "https://www.twitch.tv/brotinderdose",
+        "can_moderate": false
+    },
+    "monitors": [],
+    "recordable": true,
+    "recorded": false,
+    "recorded_by": null,
+    "allow_comments": true,
+    "hide_comments": false,
+    "allow_prerace_chat": true,
+    "allow_midrace_chat": true,
+    "allow_non_entrant_chat": true,
+    "chat_message_delay": "P0DT00H00M00S"
+}

@@ -1,0 +1,138 @@
+{
+    "version": 16,
+    "name": "ootr/lurking-likelike-6308",
+    "slug": "lurking-likelike-6308",
+    "status": {
+        "value": "finished",
+        "verbose_value": "Finished",
+        "help_text": "This race has been completed"
+    },
+    "url": "/ootr/lurking-likelike-6308",
+    "data_url": "/ootr/lurking-likelike-6308/data",
+    "websocket_url": "/ws/race/lurking-likelike-6308",
+    "websocket_bot_url": "/ws/o/bot/lurking-likelike-6308",
+    "websocket_oauth_url": "/ws/o/race/lurking-likelike-6308",
+    "category": {
+        "name": "Ocarina of Time Randomizer",
+        "short_name": "OoTR",
+        "slug": "ootr",
+        "url": "/ootr",
+        "data_url": "/ootr/data",
+        "image": "https://racetime.gg/media/zootr.png"
+    },
+    "goal": {
+        "name": "Random settings league",
+        "custom": false
+    },
+    "info": "Random Settings League | Seed: https://ootr.fenhl.net/seed/OoT_39380_UMAU3TFI57.zpf",
+    "team_race": false,
+    "entrants_count": 2,
+    "entrants_count_finished": 1,
+    "entrants_count_inactive": 1,
+    "entrants": [
+        {
+            "user": {
+                "id": "07QXz83KxwoeZDjr",
+                "full_name": "MisterKarp#9404",
+                "name": "MisterKarp",
+                "discriminator": "9404",
+                "url": "/user/07QXz83KxwoeZDjr",
+                "avatar": "https://racetime.gg/media/misterkarp.jpeg",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "misterkarp",
+                "twitch_display_name": "MisterKarp",
+                "twitch_channel": "https://www.twitch.tv/misterkarp",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT04H46M55.584860S",
+            "finished_at": "2022-02-07T16:04:05.307Z",
+            "place": 1,
+            "place_ordinal": "1st",
+            "score": null,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "JN9rVpW98Gojq8Ll",
+                "full_name": "SDGShawn#8194",
+                "name": "SDGShawn",
+                "discriminator": "8194",
+                "url": "/user/JN9rVpW98Gojq8Ll",
+                "avatar": null,
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "sdgshawn",
+                "twitch_display_name": "SDGShawn",
+                "twitch_channel": "https://www.twitch.tv/sdgshawn",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "dnf",
+                "verbose_value": "DNF",
+                "help_text": "Did not finish the race."
+            },
+            "finish_time": null,
+            "finished_at": null,
+            "place": null,
+            "place_ordinal": null,
+            "score": 1680,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        }
+    ],
+    "opened_at": "2022-02-07T10:58:57.716Z",
+    "start_delay": "P0DT00H00M15S",
+    "started_at": "2022-02-07T11:17:09.722Z",
+    "ended_at": "2022-02-07T16:20:46.375Z",
+    "cancelled_at": null,
+    "unlisted": false,
+    "time_limit": "P1DT00H00M00S",
+    "require_even_teams": false,
+    "streaming_required": true,
+    "auto_start": true,
+    "opened_by": {
+        "id": "JN9rVpW98Gojq8Ll",
+        "full_name": "SDGShawn#8194",
+        "name": "SDGShawn",
+        "discriminator": "8194",
+        "url": "/user/JN9rVpW98Gojq8Ll",
+        "avatar": null,
+        "pronouns": "he/him",
+        "flair": "",
+        "twitch_name": "sdgshawn",
+        "twitch_display_name": "SDGShawn",
+        "twitch_channel": "https://www.twitch.tv/sdgshawn",
+        "can_moderate": false
+    },
+    "monitors": [],
+    "recordable": true,
+    "recorded": false,
+    "recorded_by": null,
+    "allow_comments": true,
+    "hide_comments": false,
+    "allow_prerace_chat": true,
+    "allow_midrace_chat": true,
+    "allow_non_entrant_chat": true,
+    "chat_message_delay": "P0DT00H00M00S"
+}

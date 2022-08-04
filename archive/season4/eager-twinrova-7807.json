@@ -1,0 +1,278 @@
+{
+    "version": 68,
+    "name": "ootr/eager-twinrova-7807",
+    "slug": "eager-twinrova-7807",
+    "status": {
+        "value": "finished",
+        "verbose_value": "Finished",
+        "help_text": "This race has been completed"
+    },
+    "url": "/ootr/eager-twinrova-7807",
+    "data_url": "/ootr/eager-twinrova-7807/data",
+    "websocket_url": "/ws/race/eager-twinrova-7807",
+    "websocket_bot_url": "/ws/o/bot/eager-twinrova-7807",
+    "websocket_oauth_url": "/ws/o/race/eager-twinrova-7807",
+    "category": {
+        "name": "Ocarina of Time Randomizer",
+        "short_name": "OoTR",
+        "slug": "ootr",
+        "url": "/ootr",
+        "data_url": "/ootr/data",
+        "image": "https://racetime.gg/media/zootr.png"
+    },
+    "goal": {
+        "name": "Random settings league",
+        "custom": false
+    },
+    "info": "Random Settings League | Seed: https://ootr.fenhl.net/seed/OoT_B6196_JRTKZJBEU1.zpf",
+    "team_race": false,
+    "entrants_count": 6,
+    "entrants_count_finished": 5,
+    "entrants_count_inactive": 1,
+    "entrants": [
+        {
+            "user": {
+                "id": "dMqzQPW4v31L2R5E",
+                "full_name": "Hamsda#9463",
+                "name": "Hamsda",
+                "discriminator": "9463",
+                "url": "/user/dMqzQPW4v31L2R5E",
+                "avatar": "https://racetime.gg/media/hamster_lift.jpg",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "hamsda",
+                "twitch_display_name": "Hamsda",
+                "twitch_channel": "https://www.twitch.tv/hamsda",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT02H57M23.835397S",
+            "finished_at": "2022-01-04T21:03:49.512Z",
+            "place": 1,
+            "place_ordinal": "1st",
+            "score": 2795,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "ZbpNAaBv40oJkg04",
+                "full_name": "Weasel2366#5808",
+                "name": "Weasel2366",
+                "discriminator": "5808",
+                "url": "/user/ZbpNAaBv40oJkg04",
+                "avatar": null,
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "weasel2366",
+                "twitch_display_name": "Weasel2366",
+                "twitch_channel": "https://www.twitch.tv/weasel2366",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT03H19M54.273769S",
+            "finished_at": "2022-01-04T21:26:19.951Z",
+            "place": 2,
+            "place_ordinal": "2nd",
+            "score": 2111,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "JrM6PoY9dkoRdm5v",
+                "full_name": "Xuross#1161",
+                "name": "Xuross",
+                "discriminator": "1161",
+                "url": "/user/JrM6PoY9dkoRdm5v",
+                "avatar": null,
+                "pronouns": null,
+                "flair": "",
+                "twitch_name": "xurosss",
+                "twitch_display_name": "Xurosss",
+                "twitch_channel": "https://www.twitch.tv/xurosss",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT03H24M56.221106S",
+            "finished_at": "2022-01-04T21:31:21.898Z",
+            "place": 3,
+            "place_ordinal": "3rd",
+            "score": 2122,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "AEk8wpok9GB5KQyV",
+                "full_name": "Hellknight86#4990",
+                "name": "Hellknight86",
+                "discriminator": "4990",
+                "url": "/user/AEk8wpok9GB5KQyV",
+                "avatar": null,
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "hellknight86",
+                "twitch_display_name": "Hellknight86",
+                "twitch_channel": "https://www.twitch.tv/hellknight86",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT03H55M01.245835S",
+            "finished_at": "2022-01-04T22:01:26.923Z",
+            "place": 4,
+            "place_ordinal": "4th",
+            "score": 2082,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "NZ1KRBOg69B4qAyj",
+                "full_name": "Alf#5942",
+                "name": "Alf",
+                "discriminator": "5942",
+                "url": "/user/NZ1KRBOg69B4qAyj",
+                "avatar": "https://racetime.gg/media/jwkn49nv_400x400.jpg",
+                "pronouns": "he/him",
+                "flair": "",
+                "twitch_name": "alfakenyjuan",
+                "twitch_display_name": "Alfakenyjuan",
+                "twitch_channel": "https://www.twitch.tv/alfakenyjuan",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "done",
+                "verbose_value": "Finished",
+                "help_text": "Finished the race."
+            },
+            "finish_time": "P0DT04H04M48.481995S",
+            "finished_at": "2022-01-04T22:11:14.159Z",
+            "place": 5,
+            "place_ordinal": "5th",
+            "score": 2022,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": true,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        },
+        {
+            "user": {
+                "id": "wdm1LPWjQAoEnVx6",
+                "full_name": "Neil#2297",
+                "name": "Neil",
+                "discriminator": "2297",
+                "url": "/user/wdm1LPWjQAoEnVx6",
+                "avatar": null,
+                "pronouns": null,
+                "flair": "",
+                "twitch_name": "n_eil",
+                "twitch_display_name": "N_eil",
+                "twitch_channel": "https://www.twitch.tv/n_eil",
+                "can_moderate": false
+            },
+            "team": null,
+            "status": {
+                "value": "dnf",
+                "verbose_value": "DNF",
+                "help_text": "Did not finish the race."
+            },
+            "finish_time": null,
+            "finished_at": null,
+            "place": null,
+            "place_ordinal": null,
+            "score": 2039,
+            "score_change": null,
+            "comment": null,
+            "has_comment": false,
+            "stream_live": false,
+            "stream_override": false,
+            "actions": [
+                "add_comment"
+            ]
+        }
+    ],
+    "opened_at": "2022-01-04T17:29:15.407Z",
+    "start_delay": "P0DT00H00M15S",
+    "started_at": "2022-01-04T18:06:25.677Z",
+    "ended_at": "2022-01-04T22:11:14.244Z",
+    "cancelled_at": null,
+    "unlisted": false,
+    "time_limit": "P1DT00H00M00S",
+    "require_even_teams": false,
+    "streaming_required": true,
+    "auto_start": true,
+    "opened_by": {
+        "id": "dMqzQPW4v31L2R5E",
+        "full_name": "Hamsda#9463",
+        "name": "Hamsda",
+        "discriminator": "9463",
+        "url": "/user/dMqzQPW4v31L2R5E",
+        "avatar": "https://racetime.gg/media/hamster_lift.jpg",
+        "pronouns": "he/him",
+        "flair": "",
+        "twitch_name": "hamsda",
+        "twitch_display_name": "Hamsda",
+        "twitch_channel": "https://www.twitch.tv/hamsda",
+        "can_moderate": false
+    },
+    "monitors": [],
+    "recordable": true,
+    "recorded": false,
+    "recorded_by": null,
+    "allow_comments": true,
+    "hide_comments": false,
+    "allow_prerace_chat": true,
+    "allow_midrace_chat": true,
+    "allow_non_entrant_chat": true,
+    "chat_message_delay": "P0DT00H00M00S"
+}
